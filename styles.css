@@ -995,6 +995,31 @@ select {
   box-shadow: 0 16px 42px rgba(15, 23, 42, 0.08);
 }
 
+
+.architecture-zoom-button {
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 42px;
+  padding: 10px 16px;
+  border: 1px solid #bfdbfe;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #0f3b66;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.architecture-zoom-button:hover,
+.architecture-zoom-button:focus-visible {
+  background: #eff6ff;
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(22, 93, 255, 0.18);
+}
+
 .feature-list {
   display: grid;
   gap: 8px;
@@ -1079,6 +1104,26 @@ body.dialog-open {
   transform: translateY(0);
 }
 
+
+.project-dialog.dialog-zoom-open {
+  overflow: hidden;
+}
+
+.project-dialog .image-zoom-overlay {
+  z-index: 100000;
+}
+
+.project-dialog .image-zoom-panel {
+  width: min(1400px, calc(100vw - 32px));
+  max-height: calc(100vh - 32px);
+}
+
+.project-dialog .image-zoom-img {
+  width: 100%;
+  max-width: none;
+  max-height: none;
+}
+
 .image-zoom-overlay {
   position: fixed;
   inset: 0;
@@ -1091,12 +1136,12 @@ body.dialog-open {
 }
 
 .image-zoom-panel {
-  width: min(1180px, 100%);
+  width: min(1280px, 100%);
   max-height: calc(100vh - 48px);
   display: grid;
   grid-template-rows: auto minmax(0, 1fr);
   overflow: hidden;
-  border-radius: 24px;
+  border-radius: 22px;
   background: white;
   box-shadow: 0 28px 90px rgba(0, 0, 0, 0.36);
 }
@@ -1106,7 +1151,7 @@ body.dialog-open {
   align-items: center;
   justify-content: space-between;
   gap: 18px;
-  padding: 16px 20px;
+  padding: 18px 22px;
   border-bottom: 1px solid var(--border);
 }
 
@@ -1116,26 +1161,72 @@ body.dialog-open {
   line-height: 1.2;
 }
 
-.image-zoom-close {
-  width: 42px;
-  height: 42px;
+.image-zoom-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   flex: 0 0 auto;
+}
+
+.image-zoom-control,
+.image-zoom-close {
+  min-width: 42px;
+  height: 42px;
+  padding: 0 12px;
   border: none;
   border-radius: 999px;
-  background: var(--dark);
-  color: white;
-  font-size: 1.7rem;
+  font-weight: 800;
   line-height: 1;
   cursor: pointer;
 }
 
-.image-zoom-img {
+.image-zoom-control {
+  background: #eff6ff;
+  color: #0f3b66;
+  border: 1px solid #bfdbfe;
+  font-size: 1rem;
+}
+
+.image-zoom-reset {
+  min-width: 64px;
+}
+
+.image-zoom-close {
+  width: 42px;
+  flex: 0 0 auto;
+  background: var(--dark);
+  color: white;
+  font-size: 1.7rem;
+}
+
+.image-zoom-canvas {
   width: 100%;
   height: 100%;
-  max-height: calc(100vh - 130px);
-  padding: 18px;
+  max-height: calc(100vh - 132px);
+  overflow: auto;
+  display: block;
+  background: #f8fbff;
+  cursor: zoom-in;
+  text-align: left;
+}
+
+.image-zoom-canvas.is-zoomed {
+  cursor: grab;
+}
+
+.image-zoom-img {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  height: auto;
+  max-height: none;
+  padding: 10px;
   object-fit: contain;
   background: #f8fbff;
+  transform: none;
+  transform-origin: top left;
+  transition: width 0.16s ease;
+  box-sizing: border-box;
 }
 
 body.image-zoom-open {
@@ -1157,8 +1248,8 @@ body.image-zoom-open {
   }
 
   .image-zoom-img {
-    padding: 10px;
-    max-height: calc(100vh - 100px);
+    padding: 8px;
+    max-height: none;
   }
 
   .zoom-hint {
@@ -1251,4 +1342,44 @@ body.image-zoom-open {
     min-height: 40px;
     padding: 8px 14px;
   }
+}
+
+
+/* ============================================================
+   v24: arquitectura tecnológica homogénea + zoom con acercamiento
+   ============================================================ */
+.dialog-architecture {
+  overflow: visible;
+}
+
+.dialog-image {
+  width: 100%;
+  max-height: min(78vh, 980px);
+  object-fit: contain;
+}
+
+.card-image {
+  object-fit: contain;
+}
+
+
+/* v28: evita que el encabezado del visor de arquitectura choque con los bordes del modal */
+.image-zoom-header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: #ffffff;
+}
+
+.image-zoom-header h3 {
+  max-width: min(920px, 62vw);
+  overflow-wrap: anywhere;
+}
+
+.image-zoom-canvas {
+  scroll-padding-top: 24px;
+}
+
+.image-zoom-img {
+  padding-top: 34px;
 }

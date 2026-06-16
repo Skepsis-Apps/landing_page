@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1210" viewBox="0 0 1200 1210" role="img" aria-labelledby="title desc">
-  <title id="title">Ames Housing Python + R Cloud | Arquitectura de integración tecnológica</title>
-  <desc id="desc">FastAPI • R Plumber • Render • Machine Learning • microservicios</desc>
+  <title id="title">BioVerify-Zero v2 | Arquitectura de integración tecnológica</title>
+  <desc id="desc">Frontend web • FastAPI • OpenCV YuNet • SFace • Hugging Face Spaces</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0%" stop-color="#f8fbff"/>
@@ -26,60 +26,60 @@
   <rect x="32" y="112" width="1136" height="1070" rx="28" fill="#ffffff" opacity="0.58" stroke="#d9e8ff" stroke-width="2"/>
   <!-- header-safe-zone-v30: avoids title overlap with background border -->
   <rect x="160" y="18" width="880" height="92" rx="22" fill="url(#bg)" opacity="0.96"/>
-  <text x="600" y="54" text-anchor="middle" class="title">Ames Housing Python + R Cloud</text>
-  <text x="600" y="90" text-anchor="middle" class="subtitle">FastAPI • R Plumber • Render • Machine Learning • microservicios</text>
+  <text x="600" y="54" text-anchor="middle" class="title">BioVerify-Zero v2</text>
+  <text x="600" y="90" text-anchor="middle" class="subtitle">Frontend web • FastAPI • OpenCV YuNet • SFace • Hugging Face Spaces</text>
   <rect x="78" y="128" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
   <circle cx="128" cy="181" r="29" fill="url(#badge)"/>
   <text x="128" y="190" text-anchor="middle" class="num">1</text>
-<text x="190" y="166" class="step-title" text-anchor="start"><tspan x="190" dy="0">Usuario vía HTTPS</tspan></text>
-<text x="190" y="200" class="step-body" text-anchor="start"><tspan x="190" dy="0">Accede a la aplicación web desplegada en Render.</tspan></text>
+<text x="190" y="166" class="step-title" text-anchor="start"><tspan x="190" dy="0">Usuario</tspan></text>
+<text x="190" y="200" class="step-body" text-anchor="start"><tspan x="190" dy="0">Carga imagen de documento y captura rostro en vivo desde navegador.</tspan></text>
   <line x1="600" y1="241" x2="600" y2="251" class="arrow"/>
   <path d="M591 242 L600 251 L609 242" fill="none" class="arrow"/>
   <rect x="78" y="258" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
   <circle cx="128" cy="311" r="29" fill="url(#badge)"/>
   <text x="128" y="320" text-anchor="middle" class="num">2</text>
-<text x="190" y="296" class="step-title" text-anchor="start"><tspan x="190" dy="0">FastAPI + Jinja2</tspan></text>
-<text x="190" y="330" class="step-body" text-anchor="start"><tspan x="190" dy="0">Servicio Python para interfaz, validación y lógica de negocio.</tspan></text>
+<text x="190" y="296" class="step-title" text-anchor="start"><tspan x="190" dy="0">Frontend web responsivo</tspan></text>
+<text x="190" y="330" class="step-body" text-anchor="start"><tspan x="190" dy="0">HTML • JavaScript • getUserMedia • Canvas • Fetch API.</tspan></text>
   <line x1="600" y1="371" x2="600" y2="381" class="arrow"/>
   <path d="M591 372 L600 381 L609 372" fill="none" class="arrow"/>
   <rect x="78" y="388" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
   <circle cx="128" cy="441" r="29" fill="url(#badge)"/>
   <text x="128" y="450" text-anchor="middle" class="num">3</text>
-<text x="190" y="426" class="step-title" text-anchor="start"><tspan x="190" dy="0">Validación y reportes</tspan></text>
-<text x="190" y="460" class="step-body" text-anchor="start"><tspan x="190" dy="0">Entradas • historial • reportes PDF • comunicación con R.</tspan></text>
+<text x="190" y="426" class="step-title" text-anchor="start"><tspan x="190" dy="0">API Backend</tspan></text>
+<text x="190" y="460" class="step-body" text-anchor="start"><tspan x="190" dy="0">FastAPI • Uvicorn • Pydantic • endpoints /health y /api/v1/verify.</tspan></text>
   <line x1="600" y1="501" x2="600" y2="511" class="arrow"/>
   <path d="M591 502 L600 511 L609 502" fill="none" class="arrow"/>
   <rect x="78" y="518" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
   <circle cx="128" cy="571" r="29" fill="url(#badge)"/>
   <text x="128" y="580" text-anchor="middle" class="num">4</text>
-<text x="190" y="556" class="step-title" text-anchor="start"><tspan x="190" dy="0">HTTPS REST JSON</tspan></text>
-<text x="190" y="590" class="step-body" text-anchor="start"><tspan x="190" dy="0">Intercambio estructurado entre servicio Python y servicio R.</tspan></text>
+<text x="190" y="556" class="step-title" text-anchor="start"><tspan x="190" dy="0">Procesamiento de imagen</tspan></text>
+<text x="190" y="590" class="step-body" text-anchor="start"><tspan x="190" dy="0">Base64 decode • validación • control mínimo de calidad.</tspan></text>
   <line x1="600" y1="631" x2="600" y2="641" class="arrow"/>
   <path d="M591 632 L600 641 L609 632" fill="none" class="arrow"/>
   <rect x="78" y="648" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
   <circle cx="128" cy="701" r="29" fill="url(#badge)"/>
   <text x="128" y="710" text-anchor="middle" class="num">5</text>
-<text x="190" y="686" class="step-title" text-anchor="start"><tspan x="190" dy="0">R Plumber API</tspan></text>
-<text x="190" y="720" class="step-body" text-anchor="start"><tspan x="190" dy="0">Servicio estadístico independiente desplegado en Render.</tspan></text>
+<text x="190" y="686" class="step-title" text-anchor="start"><tspan x="190" dy="0">Computer Vision</tspan></text>
+<text x="190" y="720" class="step-body" text-anchor="start"><tspan x="190" dy="0">OpenCV YuNet para detección facial y SFace para embeddings.</tspan></text>
   <line x1="600" y1="761" x2="600" y2="771" class="arrow"/>
   <path d="M591 762 L600 771 L609 762" fill="none" class="arrow"/>
   <rect x="78" y="778" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
   <circle cx="128" cy="831" r="29" fill="url(#badge)"/>
   <text x="128" y="840" text-anchor="middle" class="num">6</text>
-<text x="190" y="816" class="step-title" text-anchor="start"><tspan x="190" dy="0">Elastic Net con glmnet</tspan></text>
-<text x="190" y="850" class="step-body" text-anchor="start"><tspan x="190" dy="0">Modelo predictivo cargado y ejecutado desde R.</tspan></text>
+<text x="190" y="816" class="step-title" text-anchor="start"><tspan x="190" dy="0">Comparación facial 1:1</tspan></text>
+<text x="190" y="850" class="step-body" text-anchor="start"><tspan x="190" dy="0">Embedding documento vs rostro en vivo • similitud coseno • threshold 0.50.</tspan></text>
   <line x1="600" y1="891" x2="600" y2="901" class="arrow"/>
   <path d="M591 892 L600 901 L609 892" fill="none" class="arrow"/>
   <rect x="78" y="908" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
   <circle cx="128" cy="961" r="29" fill="url(#badge)"/>
   <text x="128" y="970" text-anchor="middle" class="num">7</text>
-<text x="190" y="946" class="step-title" text-anchor="start"><tspan x="190" dy="0">Predicción estadística</tspan></text>
-<text x="190" y="980" class="step-body" text-anchor="start"><tspan x="190" dy="0">Precio estimado • intervalos de confianza • visualizaciones.</tspan></text>
+<text x="190" y="946" class="step-title" text-anchor="start"><tspan x="190" dy="0">Respuesta JSON</tspan></text>
+<text x="190" y="980" class="step-body" text-anchor="start"><tspan x="190" dy="0">verified • decision • similarity_score • quality • model_mode • retention.</tspan></text>
   <line x1="600" y1="1021" x2="600" y2="1031" class="arrow"/>
   <path d="M591 1022 L600 1031 L609 1022" fill="none" class="arrow"/>
   <rect x="78" y="1038" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
   <circle cx="128" cy="1091" r="29" fill="url(#badge)"/>
   <text x="128" y="1100" text-anchor="middle" class="num">8</text>
-<text x="190" y="1076" class="step-title" text-anchor="start"><tspan x="190" dy="0">Arquitectura distribuida</tspan></text>
-<text x="190" y="1110" class="step-body" text-anchor="start"><tspan x="190" dy="0">Separación clara entre capa web Python y capa analítica R.</tspan></text>
+<text x="190" y="1076" class="step-title" text-anchor="start"><tspan x="190" dy="0">Cloud deployment</tspan></text>
+<text x="190" y="1110" class="step-body" text-anchor="start"><tspan x="190" dy="0">Docker • Hugging Face Spaces • GitHub • Git LFS.</tspan></text>
 </svg>

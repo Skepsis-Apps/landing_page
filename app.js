@@ -1,5 +1,6 @@
-const PROJECTS_ENDPOINT = "./projects.json";
+const PROJECTS_ENDPOINT = "./projects.json?v=31-2";
 const LANGUAGE_STORAGE_KEY = "skepsisAppsLanguage";
+const SUPPORTED_LANGUAGES = ["es", "en", "fr", "nb"];
 const ALL_CATEGORIES = "__all__";
 
 const REQUIRED_FIELDS = ["id", "title", "category", "summary", "description", "purpose"];
@@ -113,6 +114,7 @@ const STATIC_TRANSLATIONS = {
     linkDesign: "Diseño",
     detailButton: "Ver resumen",
     zoomHint: "Click para ampliar",
+    zoomButton: "Ampliar arquitectura",
     zoomClose: "Cerrar zoom",
     zoomArchitecture: "Arquitectura tecnológica de",
     zoomView: "Vista ampliada",
@@ -147,8 +149,8 @@ const STATIC_TRANSLATIONS = {
     navSolutions: "Solutions",
     navPortfolio: "Portfolio",
     navContact: "Contact",
-    languageButtonAria: "Switch language to Spanish",
-    languageLabel: "Español",
+    languageButtonAria: "Change language to French",
+    languageLabel: "Français",
     navToggleOpen: "Open menu",
     navToggleClose: "Close menu",
     heroEyebrow: "Artificial intelligence • Data science • Automation",
@@ -242,6 +244,7 @@ const STATIC_TRANSLATIONS = {
     linkDesign: "Design",
     detailButton: "View summary",
     zoomHint: "Click to enlarge",
+    zoomButton: "Zoom architecture",
     zoomClose: "Close zoom",
     zoomArchitecture: "Technology architecture of",
     zoomView: "Enlarged view",
@@ -262,6 +265,266 @@ const STATIC_TRANSLATIONS = {
     linkedinArticle: "LinkedIn article",
     designSolution: "Solution design",
     genericLink: "Link"
+  },
+  fr: {
+    documentTitle: "Sképsis Apps | IA, science des données et automatisation",
+    metaDescription: "Sképsis Apps développe des services technologiques intelligents pour transformer les données, les idées et les processus en solutions numériques utiles, mesurables et techniquement solides.",
+    ogTitle: "Sképsis Apps | Solutions technologiques intelligentes",
+    ogDescription: "IA appliquée, science des données, automatisation, applications métier, tableaux de bord, API, modèles prédictifs et flux de données.",
+    skipPortfolio: "Aller au portefeuille",
+    mainNavigation: "Navigation principale",
+    goHome: "Aller à l’accueil de Sképsis Apps",
+    navServices: "Services",
+    navMethodology: "Méthodologie",
+    navSolutions: "Solutions",
+    navPortfolio: "Portefeuille",
+    navContact: "Contact",
+    languageButtonAria: "Passer la langue au norvégien",
+    languageLabel: "Norsk",
+    navToggleOpen: "Ouvrir le menu",
+    navToggleClose: "Fermer le menu",
+    heroEyebrow: "Intelligence artificielle • Science des données • Automatisation",
+    heroTitle: "Nous développons des services technologiques intelligents pour transformer les données, les idées et les processus en solutions numériques utiles, mesurables et techniquement solides.",
+    heroDescription: "Chez <strong>Sképsis Apps</strong>, nous traitons les données afin de générer des informations de valeur pour soutenir la prise de décision. Nous concevons et développons des applications, tableaux de bord, API, modèles prédictifs, flux d’extraction, transformation et chargement de données, automatisations et prototypes fonctionnels destinés à résoudre des problèmes réels avec clarté, rigueur technique et approche d’ingénierie.",
+    heroServicesButton: "Voir les services",
+    heroTalkButton: "Parlons-en",
+    metricsAria: "Indicateurs généraux",
+    metricSolutions: "Solutions documentées",
+    metricApps: "Applications / démos",
+    metricRepos: "Dépôts techniques",
+    metricArticles: "Cas et publications",
+    servicesEyebrow: "Ce que nous faisons",
+    servicesTitle: "Services et capacités principales",
+    servicesDescription: "Nous traitons les données pour générer des informations de valeur qui soutiennent la prise de décision et permettent de construire des solutions technologiques utiles, mesurables et techniquement solides.",
+    serviceAiTitle: "IA appliquée",
+    serviceAiText: "Nous concevons des prototypes et des solutions avec des modèles prédictifs, des agents et une automatisation intelligente pour classifier l’information, anticiper des scénarios et recommander des actions.",
+    serviceDataTitle: "Science des données",
+    serviceDataText: "Nous traitons, analysons et visualisons les données pour transformer des informations dispersées en indicateurs, modèles et connaissances exploitables.",
+    serviceAutomationTitle: "Automatisation",
+    serviceAutomationText: "Nous numérisons les flux de travail, intégrons des outils et réduisons les tâches répétitives ou critiques grâce à des processus automatiques, validations et rapports.",
+    serviceAppsTitle: "Applications d’entreprise",
+    serviceAppsText: "Nous développons des applications, tableaux de bord, démos techniques, API et produits légers déployables dans des environnements web, cloud ou de validation.",
+    methodologyEyebrow: "Comment nous travaillons",
+    methodologyTitle: "Méthodologie de conception et développement",
+    methodologyDescription: "Chaque solution est construite avec une logique claire : comprendre le problème, concevoir l’architecture, construire l’actif technologique et valider son résultat.",
+    methodDiagnosisTitle: "1. Diagnostic",
+    methodDiagnosisText: "Nous comprenons le problème, les données disponibles, les processus concernés et le résultat attendu.",
+    methodArchitectureTitle: "2. Architecture",
+    methodArchitectureText: "Nous définissons le flux de données, les composants technologiques, les intégrations et la feuille de route technique de mise en œuvre.",
+    methodBuildTitle: "3. Construction technologique",
+    methodBuildText: "Nous développons l’actif requis : application, tableau de bord, API, flux ETL, modèle prédictif ou prototype fonctionnel pour valider la solution.",
+    methodValidationTitle: "4. Validation",
+    methodValidationText: "Nous testons la solution, examinons les résultats, documentons les constats et définissons les prochaines étapes de déploiement ou d’évolution.",
+    solutionsEyebrow: "Solutions que nous développons",
+    solutionsTitle: "Actifs technologiques pour valider et faire évoluer les idées",
+    solution1: "Applications d’entreprise",
+    solution2: "Tableaux de bord intelligents",
+    solution3: "API prédictives",
+    solution4: "Modèles de machine learning",
+    solution5: "Flux d’extraction, transformation et chargement de données",
+    solution6: "Automatisation des rapports",
+    solution7: "Prototypes fonctionnels",
+    solution8: "Architectures cloud",
+    solution9: "Solutions d’analyse et visualisation de données",
+    solution10: "Systèmes légers pour validation et déploiement",
+    techEyebrow: "Technologies principales",
+    techTitle: "Stack technique",
+    techAria: "Technologies principales",
+    valueEyebrow: "Valeur différentielle",
+    valueTitle: "Clarté technique orientée résultats",
+    value1: "Solutions technologiques simples, claires et mesurables.",
+    value2: "Développement de bout en bout.",
+    value3: "Intégration de données, modèles, applications et déploiement.",
+    value4: "Code modulaire, documenté et reproductible.",
+    value5: "Approche pratique orientée résultats.",
+    value6: "Prototypes prêts à valider les idées avant le passage à l’échelle.",
+    positioning: "Sképsis Apps transforme données, idées et processus en solutions technologiques intelligentes.",
+    portfolioEyebrow: "Portefeuille",
+    portfolioTitle: "Solutions, cas et démonstrateurs techniques",
+    portfolioDescription: "Explorez le portefeuille de Sképsis Apps : chaque fiche inclut résumé exécutif, objectif, fonctionnalités pertinentes, architecture technologique et liens associés.",
+    searchLabel: "Rechercher des projets",
+    searchPlaceholder: "Rechercher par nom, catégorie ou technologie...",
+    searchAria: "Rechercher des solutions",
+    sortLabel: "Trier",
+    sortAria: "Trier les projets",
+    sortDateDesc: "Plus récents",
+    sortDateAsc: "Plus anciens",
+    sortTitleAsc: "Titre A-Z",
+    sortTitleDesc: "Titre Z-A",
+    categoryTitle: "Catégories",
+    categoryAria: "Filtres par catégorie",
+    allCategories: "Toutes",
+    contactEyebrow: "Contact",
+    contactTitle: "Parlons de votre prochain projet",
+    contactDescription: "Si vous cherchez à développer une solution d’IA appliquée, une application démonstrative, un tableau de bord, une API ou un flux de données, Sképsis Apps peut vous aider à le structurer et à l’amener vers une version fonctionnelle, mesurable et prête à être validée.",
+    whatsappMexico: "WhatsApp Mexique",
+    whatsappVenezuela: "WhatsApp Venezuela",
+    emailButton: "Courriel",
+    explorePortfolio: "Explorer le portefeuille",
+    contactDataAria: "Coordonnées",
+    mexicoLabel: "Mexique :",
+    venezuelaLabel: "Venezuela :",
+    emailLabel: "Courriel :",
+    closeDetail: "Fermer le détail",
+    footerText: "Solutions technologiques intelligentes.",
+    linkApp: "Application",
+    linkGithub: "GitHub",
+    linkDataset: "Dataset",
+    linkArticle: "Article",
+    linkDesign: "Design",
+    detailButton: "Voir le résumé",
+    zoomHint: "Cliquer pour agrandir",
+    zoomButton: "Agrandir l’architecture",
+    zoomClose: "Fermer",
+    zoomArchitecture: "Architecture technologique de",
+    zoomView: "Vue agrandie",
+    emptyTitle: "Aucun projet trouvé",
+    emptyText: "Essayez une autre recherche ou catégorie.",
+    statusLoadError: "Impossible de charger les projets. Vérifiez le fichier projects.json.",
+    statusNoResults: "Aucun projet ne correspond aux filtres.",
+    statusShowing: "Affichage de {shown} projet(s) sur {total}.",
+    dialogPurpose: "Objectif",
+    dialogDescription: "Description",
+    dialogArchitecture: "Architecture d’intégration technologique",
+    dialogFeatures: "Fonctionnalités pertinentes",
+    dialogOutcome: "Résultat / impact",
+    dialogStack: "Stack technologique",
+    dialogEvidence: "Preuves publiques",
+    openApp: "Ouvrir l’application",
+    githubRepository: "Dépôt GitHub",
+    linkedinArticle: "Article LinkedIn",
+    designSolution: "Design de la solution",
+    genericLink: "Lien"
+  },
+  nb: {
+    documentTitle: "Sképsis Apps | KI, datavitenskap og automatisering",
+    metaDescription: "Sképsis Apps utvikler intelligente teknologitjenester for å omdanne data, ideer og prosesser til nyttige, målbare og teknisk solide digitale løsninger.",
+    ogTitle: "Sképsis Apps | Intelligente teknologiløsninger",
+    ogDescription: "Anvendt KI, datavitenskap, automatisering, forretningsapplikasjoner, dashbord, API-er, prediktive modeller og dataflyter.",
+    skipPortfolio: "Gå til porteføljen",
+    mainNavigation: "Hovednavigasjon",
+    goHome: "Gå til Sképsis Apps startside",
+    navServices: "Tjenester",
+    navMethodology: "Metodikk",
+    navSolutions: "Løsninger",
+    navPortfolio: "Portefølje",
+    navContact: "Kontakt",
+    languageButtonAria: "Bytt språk til spansk",
+    languageLabel: "Español",
+    navToggleOpen: "Åpne meny",
+    navToggleClose: "Lukk meny",
+    heroEyebrow: "Kunstig intelligens • Datavitenskap • Automatisering",
+    heroTitle: "Vi utvikler intelligente teknologitjenester som omdanner data, ideer og prosesser til nyttige, målbare og teknisk solide digitale løsninger.",
+    heroDescription: "Hos <strong>Sképsis Apps</strong> behandler vi data for å skape verdifull informasjon som støtter beslutningstaking. Vi designer og utvikler applikasjoner, dashbord, API-er, prediktive modeller, dataflyter for ekstraksjon, transformasjon og lasting, automatiseringer og funksjonelle prototyper for å løse reelle problemer med klarhet, teknisk vurdering og ingeniørmessig tilnærming.",
+    heroServicesButton: "Se tjenester",
+    heroTalkButton: "La oss snakke",
+    metricsAria: "Generelle indikatorer",
+    metricSolutions: "Dokumenterte løsninger",
+    metricApps: "Apper / demoer",
+    metricRepos: "Tekniske repositorier",
+    metricArticles: "Casestudier og publikasjoner",
+    servicesEyebrow: "Hva vi gjør",
+    servicesTitle: "Kjernetjenester og kapasiteter",
+    servicesDescription: "Vi behandler data for å skape verdifull informasjon som støtter beslutningstaking og gjør det mulig å bygge nyttige, målbare og teknisk solide teknologiløsninger.",
+    serviceAiTitle: "Anvendt KI",
+    serviceAiText: "Vi designer prototyper og løsninger med prediktive modeller, agenter og intelligent automatisering for å klassifisere informasjon, forutse scenarier og anbefale handlinger.",
+    serviceDataTitle: "Datavitenskap",
+    serviceDataText: "Vi behandler, analyserer og visualiserer data for å gjøre spredt informasjon om til indikatorer, mønstre og handlingsrettet kunnskap.",
+    serviceAutomationTitle: "Automatisering",
+    serviceAutomationText: "Vi digitaliserer arbeidsflyter, integrerer verktøy og reduserer repeterende eller kritiske oppgaver gjennom automatiske prosesser, valideringer og rapporter.",
+    serviceAppsTitle: "Forretningsapplikasjoner",
+    serviceAppsText: "Vi utvikler applikasjoner, dashbord, tekniske demoer, API-er og lette produkter som kan distribueres i web-, sky- eller valideringsmiljøer.",
+    methodologyEyebrow: "Hvordan vi jobber",
+    methodologyTitle: "Metodikk for design og utvikling",
+    methodologyDescription: "Hver løsning bygges med en klar logikk: forstå problemet, designe arkitekturen, bygge den teknologiske komponenten og validere resultatet.",
+    methodDiagnosisTitle: "1. Diagnose",
+    methodDiagnosisText: "Vi forstår problemet, tilgjengelige data, involverte prosesser og forventet resultat.",
+    methodArchitectureTitle: "2. Arkitektur",
+    methodArchitectureText: "Vi definerer dataflyten, teknologikomponentene, integrasjonene og den tekniske implementeringsruten.",
+    methodBuildTitle: "3. Teknologisk bygging",
+    methodBuildText: "Vi utvikler den nødvendige komponenten: applikasjon, dashbord, API, ETL-flyt, prediktiv modell eller funksjonell prototype for å validere løsningen.",
+    methodValidationTitle: "4. Validering",
+    methodValidationText: "Vi tester løsningen, gjennomgår resultatene, dokumenterer funn og definerer neste steg for distribusjon eller videreutvikling.",
+    solutionsEyebrow: "Løsninger vi utvikler",
+    solutionsTitle: "Teknologiske ressurser for å validere og skalere ideer",
+    solution1: "Forretningsapplikasjoner",
+    solution2: "Intelligente dashbord",
+    solution3: "Prediktive API-er",
+    solution4: "Maskinlæringsmodeller",
+    solution5: "Dataflyter for ekstraksjon, transformasjon og lasting",
+    solution6: "Automatisering av rapporter",
+    solution7: "Funksjonelle prototyper",
+    solution8: "Skyarkitekturer",
+    solution9: "Løsninger for dataanalyse og visualisering",
+    solution10: "Lette systemer for validering og distribusjon",
+    techEyebrow: "Hovedteknologier",
+    techTitle: "Teknisk stack",
+    techAria: "Hovedteknologier",
+    valueEyebrow: "Differensierende verdi",
+    valueTitle: "Teknisk klarhet rettet mot resultater",
+    value1: "Enkle, tydelige og målbare teknologiløsninger.",
+    value2: "Ende-til-ende-utvikling.",
+    value3: "Integrasjon av data, modeller, applikasjoner og distribusjon.",
+    value4: "Modulær, dokumentert og reproduserbar kode.",
+    value5: "Praktisk tilnærming rettet mot resultater.",
+    value6: "Prototyper klare for å validere ideer før skalering.",
+    positioning: "Sképsis Apps omdanner data, ideer og prosesser til intelligente teknologiløsninger.",
+    portfolioEyebrow: "Portefølje",
+    portfolioTitle: "Løsninger, caser og tekniske demonstratorer",
+    portfolioDescription: "Utforsk Sképsis Apps-porteføljen: hvert kort inkluderer sammendrag, formål, relevante funksjoner, teknologisk arkitektur og tilknyttede lenker.",
+    searchLabel: "Søk i prosjekter",
+    searchPlaceholder: "Søk etter navn, kategori eller teknologi...",
+    searchAria: "Søk i løsninger",
+    sortLabel: "Sorter",
+    sortAria: "Sorter prosjekter",
+    sortDateDesc: "Nyeste",
+    sortDateAsc: "Eldste",
+    sortTitleAsc: "Tittel A-Z",
+    sortTitleDesc: "Tittel Z-A",
+    categoryTitle: "Kategorier",
+    categoryAria: "Kategorifiltre",
+    allCategories: "Alle",
+    contactEyebrow: "Kontakt",
+    contactTitle: "La oss snakke om ditt neste prosjekt",
+    contactDescription: "Hvis du ønsker å utvikle en anvendt KI-løsning, en demonstrasjonsapplikasjon, et dashbord, en API eller en dataflyt, kan Sképsis Apps hjelpe deg med å strukturere den og ta den til en funksjonell, målbar og valideringsklar versjon.",
+    whatsappMexico: "WhatsApp Mexico",
+    whatsappVenezuela: "WhatsApp Venezuela",
+    emailButton: "E-post",
+    explorePortfolio: "Utforsk porteføljen",
+    contactDataAria: "Kontaktinformasjon",
+    mexicoLabel: "Mexico:",
+    venezuelaLabel: "Venezuela:",
+    emailLabel: "E-post:",
+    closeDetail: "Lukk detaljer",
+    footerText: "Intelligente teknologiløsninger.",
+    linkApp: "App",
+    linkGithub: "GitHub",
+    linkDataset: "Datasett",
+    linkArticle: "Artikkel",
+    linkDesign: "Design",
+    detailButton: "Se sammendrag",
+    zoomHint: "Klikk for å forstørre",
+    zoomButton: "Forstørr arkitektur",
+    zoomClose: "Lukk",
+    zoomArchitecture: "Teknologisk arkitektur for",
+    zoomView: "Forstørret visning",
+    emptyTitle: "Ingen prosjekter funnet",
+    emptyText: "Prøv et annet søk eller en annen kategori.",
+    statusLoadError: "Kunne ikke laste prosjektene. Sjekk projects.json-filen.",
+    statusNoResults: "Ingen prosjekter samsvarer med filtrene.",
+    statusShowing: "Viser {shown} av {total} prosjekt(er).",
+    dialogPurpose: "Formål",
+    dialogDescription: "Beskrivelse",
+    dialogArchitecture: "Teknologisk integrasjonsarkitektur",
+    dialogFeatures: "Relevante funksjoner",
+    dialogOutcome: "Resultat / effekt",
+    dialogStack: "Teknologisk stack",
+    dialogEvidence: "Offentlig dokumentasjon",
+    openApp: "Åpne app",
+    githubRepository: "GitHub-repositorium",
+    linkedinArticle: "LinkedIn-artikkel",
+    designSolution: "Løsningsdesign",
+    genericLink: "Lenke"
   }
 };
 
@@ -313,12 +576,21 @@ function logEvent(level, message) {
 function getInitialLanguage() {
   const storedLanguage = window.localStorage.getItem(LANGUAGE_STORAGE_KEY);
 
-  if (storedLanguage === "en" || storedLanguage === "es") {
+  if (SUPPORTED_LANGUAGES.includes(storedLanguage)) {
     return storedLanguage;
   }
 
-  const browserLanguage = navigator.language || "es";
-  if (browserLanguage.toLowerCase().startsWith("en")) {
+  const browserLanguage = (navigator.language || "es").toLowerCase();
+
+  if (browserLanguage.startsWith("fr")) {
+    return "fr";
+  }
+
+  if (browserLanguage.startsWith("no") || browserLanguage.startsWith("nb") || browserLanguage.startsWith("nn")) {
+    return "nb";
+  }
+
+  if (browserLanguage.startsWith("en")) {
     return "en";
   }
 
@@ -438,12 +710,27 @@ function applyStaticTranslations() {
     node.setAttribute("aria-label", t(key));
   }
 
+  const nextLanguageLabelMap = {
+    es: "English",
+    en: "Français",
+    fr: "Norsk",
+    nb: "Español"
+  };
+
+  const nextLanguageAriaMap = {
+    es: "Cambiar idioma a inglés",
+    en: "Switch language to French",
+    fr: "Changer la langue en norvégien",
+    nb: "Bytt språk til spansk"
+  };
+
   if (elements.languageLabel) {
-    elements.languageLabel.textContent = t("languageLabel");
+    elements.languageLabel.textContent = nextLanguageLabelMap[state.language] || "English";
   }
 
   if (elements.languageToggle) {
-    elements.languageToggle.setAttribute("aria-label", t("languageButtonAria"));
+    elements.languageToggle.setAttribute("aria-label", nextLanguageAriaMap[state.language] || t("languageButtonAria"));
+    elements.languageToggle.setAttribute("title", nextLanguageLabelMap[state.language] || "English");
   }
 
   if (elements.navToggle) {
@@ -543,11 +830,11 @@ function showStatus(message, isError = false) {
  * @returns {object} Proyecto con campos del idioma activo cuando existan.
  */
 function localizeProject(project) {
-  if (state.language !== "en") {
+  if (state.language === "es") {
     return { ...project };
   }
 
-  const translations = project.translations && project.translations.en;
+  const translations = project.translations && project.translations[state.language];
   if (typeof translations !== "object" || translations === null) {
     return { ...project };
   }
@@ -556,7 +843,8 @@ function localizeProject(project) {
     ...project,
     ...translations,
     features: Array.isArray(translations.features) ? translations.features : project.features,
-    techStack: Array.isArray(translations.techStack) ? translations.techStack : project.techStack
+    techStack: Array.isArray(translations.techStack) ? translations.techStack : project.techStack,
+    extraLinks: Array.isArray(translations.extraLinks) ? translations.extraLinks : project.extraLinks
   };
 }
 
@@ -867,28 +1155,112 @@ function openImageZoom(source, title) {
   header.className = "image-zoom-header";
   header.appendChild(createTextElement("h3", title));
 
+  const controls = document.createElement("div");
+  controls.className = "image-zoom-controls";
+
+  const zoomOutButton = document.createElement("button");
+  zoomOutButton.type = "button";
+  zoomOutButton.className = "image-zoom-control";
+  zoomOutButton.setAttribute("aria-label", "Reducir zoom");
+  zoomOutButton.textContent = "−";
+
+  const zoomResetButton = document.createElement("button");
+  zoomResetButton.type = "button";
+  zoomResetButton.className = "image-zoom-control image-zoom-reset";
+  zoomResetButton.setAttribute("aria-label", "Restablecer zoom");
+  zoomResetButton.textContent = "100%";
+
+  const zoomInButton = document.createElement("button");
+  zoomInButton.type = "button";
+  zoomInButton.className = "image-zoom-control";
+  zoomInButton.setAttribute("aria-label", "Aumentar zoom");
+  zoomInButton.textContent = "+";
+
   const closeButton = document.createElement("button");
   closeButton.type = "button";
   closeButton.className = "image-zoom-close";
   closeButton.setAttribute("aria-label", t("zoomClose"));
   closeButton.textContent = "×";
 
+  controls.appendChild(zoomOutButton);
+  controls.appendChild(zoomResetButton);
+  controls.appendChild(zoomInButton);
+  controls.appendChild(closeButton);
+  header.appendChild(controls);
+
+  const canvas = document.createElement("div");
+  canvas.className = "image-zoom-canvas";
+
   const image = document.createElement("img");
   image.className = "image-zoom-img";
   image.src = source;
   image.alt = title;
 
-  header.appendChild(closeButton);
+  canvas.appendChild(image);
   panel.appendChild(header);
-  panel.appendChild(image);
+  panel.appendChild(canvas);
   overlay.appendChild(panel);
-  document.body.appendChild(overlay);
+
+  const activeDialog = document.querySelector("dialog[open]");
+  const zoomHost = activeDialog || document.body;
+  zoomHost.appendChild(overlay);
+  if (activeDialog) {
+    activeDialog.classList.add("dialog-zoom-open");
+  }
   document.body.classList.add("image-zoom-open");
+
+  let zoomLevel = 1;
+  const minZoom = 1;
+  const maxZoom = 5;
+  const stepZoom = 0.25;
+
+  const applyZoom = () => {
+    const boundedZoom = Math.min(maxZoom, Math.max(minZoom, zoomLevel));
+    zoomLevel = boundedZoom;
+
+    const previousScrollRatio = canvas.scrollWidth > canvas.clientWidth
+      ? canvas.scrollLeft / Math.max(1, canvas.scrollWidth - canvas.clientWidth)
+      : 0;
+
+    image.style.width = `${boundedZoom * 100}%`;
+    image.style.maxWidth = "none";
+    image.style.transform = "none";
+    zoomResetButton.textContent = `${Math.round(boundedZoom * 100)}%`;
+    canvas.classList.toggle("is-zoomed", boundedZoom > 1);
+
+    window.requestAnimationFrame(() => {
+      const maxScrollLeft = Math.max(0, canvas.scrollWidth - canvas.clientWidth);
+      canvas.scrollLeft = boundedZoom === 1 ? 0 : Math.round(maxScrollLeft * previousScrollRatio);
+      canvas.scrollTop = boundedZoom === 1 ? 0 : canvas.scrollTop;
+    });
+  };
+
+  const changeZoom = (delta) => {
+    zoomLevel += delta;
+    applyZoom();
+  };
 
   const closeZoom = () => {
     overlay.remove();
+    const activeDialog = document.querySelector("dialog.dialog-zoom-open");
+    if (activeDialog) {
+      activeDialog.classList.remove("dialog-zoom-open");
+    }
     document.body.classList.remove("image-zoom-open");
   };
+
+  zoomOutButton.addEventListener("click", () => changeZoom(-stepZoom));
+  zoomInButton.addEventListener("click", () => changeZoom(stepZoom));
+  zoomResetButton.addEventListener("click", () => {
+    zoomLevel = 1;
+    applyZoom();
+  });
+
+  canvas.addEventListener("wheel", (event) => {
+    event.preventDefault();
+    const direction = event.deltaY < 0 ? stepZoom : -stepZoom;
+    changeZoom(direction);
+  }, { passive: false });
 
   closeButton.addEventListener("click", closeZoom);
   overlay.addEventListener("click", (event) => {
@@ -903,6 +1275,8 @@ function openImageZoom(source, title) {
       document.removeEventListener("keydown", handleZoomEscape);
     }
   });
+
+  applyZoom();
 }
 
 /**
@@ -1115,8 +1489,17 @@ function openProjectDialog(project) {
     image.src = "assets/images/placeholder-project.svg";
   };
 
-  enableImageZoom(image, image.src, `${t("zoomArchitecture")} ${project.title}`);
+  const architectureZoomTitle = `${t("zoomArchitecture")} ${project.title}`;
+  enableImageZoom(image, image.src, architectureZoomTitle);
   architectureFigure.appendChild(image);
+
+  const zoomButton = document.createElement("button");
+  zoomButton.type = "button";
+  zoomButton.className = "architecture-zoom-button";
+  zoomButton.textContent = t("zoomButton");
+  zoomButton.addEventListener("click", () => openImageZoom(image.src, architectureZoomTitle));
+  architectureFigure.appendChild(zoomButton);
+
   body.appendChild(architectureFigure);
 
   if (Array.isArray(project.features) && project.features.length > 0) {
@@ -1175,11 +1558,11 @@ function closeProjectDialog() {
 /**
  * Cambia el idioma activo y re-renderiza la interfaz.
  *
- * @param {"es" | "en"} language Idioma destino.
+ * @param {"es" | "en" | "fr" | "nb"} language Idioma destino.
  * @returns {void}
  */
 function setLanguage(language) {
-  if (language !== "es" && language !== "en") {
+  if (!SUPPORTED_LANGUAGES.includes(language)) {
     return;
   }
 
@@ -1193,13 +1576,14 @@ function setLanguage(language) {
 }
 
 /**
- * Alterna entre español e inglés.
+ * Alterna entre Español, English, Français y Norsk.
  *
  * @returns {void}
  */
 function toggleLanguage() {
-  const nextLanguage = state.language === "es" ? "en" : "es";
-  setLanguage(nextLanguage);
+  const currentIndex = SUPPORTED_LANGUAGES.indexOf(state.language);
+  const nextIndex = currentIndex >= 0 ? (currentIndex + 1) % SUPPORTED_LANGUAGES.length : 0;
+  setLanguage(SUPPORTED_LANGUAGES[nextIndex]);
 }
 
 window.skepsisToggleLanguage = toggleLanguage;
@@ -1259,7 +1643,7 @@ function initializeEvents() {
  * @returns {Promise<void>}
  */
 async function main() {
-  logEvent("INFO", "Inicializando landing page bilingüe.");
+  logEvent("INFO", "Inicializando landing page multilingüe.");
   elements.currentYear.textContent = String(new Date().getFullYear());
 
   applyStaticTranslations();

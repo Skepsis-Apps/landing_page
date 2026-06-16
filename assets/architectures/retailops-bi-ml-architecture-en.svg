@@ -1,33 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
-<rect width="1200" height="760" rx="28" fill="#ffffff"/>
-<rect x="30" y="30" width="1140" height="700" rx="26" fill="#f8fafc" stroke="#dbeafe" stroke-width="3"/>
-<text x="70" y="76" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#0f172a">RetailOps BI ML</text>
-<text x="70" y="110" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600" fill="#64748b">BI architecture, data quality, PostgreSQL/Neon and predictive logistics risk</text>
-<rect x="120" y="120" width="960" height="54" rx="18" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
-<text x="148" y="155" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Olist CSV / archive.zip</text>
-<line x1="600.0" y1="182" x2="600.0" y2="204" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
-<path d="M592.0 196 L600.0 204 L608.0 196" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="120" y="212" width="960" height="54" rx="18" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
-<text x="148" y="247" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Python ETL: extraction • transformation • validation • loading</text>
-<line x1="600.0" y1="274" x2="600.0" y2="296" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
-<path d="M592.0 288 L600.0 296 L608.0 288" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="120" y="304" width="960" height="54" rx="18" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
-<text x="148" y="339" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">PostgreSQL / Neon: staging tables • analytics tables</text>
-<line x1="600.0" y1="366" x2="600.0" y2="388" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
-<path d="M592.0 380 L600.0 388 L608.0 380" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="120" y="396" width="960" height="54" rx="18" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
-<text x="148" y="431" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">SQL BI + ML views: commercial indicators • logistics indicators</text>
-<line x1="600.0" y1="458" x2="600.0" y2="480" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
-<path d="M592.0 472 L600.0 480 L608.0 472" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="120" y="488" width="960" height="54" rx="18" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
-<text x="148" y="523" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Streamlit dashboard: KPIs • charts • Data Quality Report</text>
-<line x1="600.0" y1="550" x2="600.0" y2="572" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
-<path d="M592.0 564 L600.0 572 L608.0 564" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="120" y="580" width="960" height="54" rx="18" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
-<text x="148" y="615" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">ML model: late delivery risk</text>
-<line x1="600.0" y1="642" x2="600.0" y2="664" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
-<path d="M592.0 656 L600.0 664 L608.0 656" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="120" y="672" width="960" height="54" rx="18" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
-<text x="148" y="707" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Streamlit Community Cloud + GitHub</text>
-<circle cx="1090" cy="82" r="18" fill="#2563eb"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1210" viewBox="0 0 1200 1210" role="img" aria-labelledby="title desc">
+  <title id="title">RetailOps BI ML | Technology integration architecture</title>
+  <desc id="desc">E-commerce • BI • data quality • PostgreSQL/Neon • logistics risk</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#eef6ff"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#087f8c"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .title { font: 800 42px Arial, sans-serif; fill: #123f69; }
+      .subtitle { font: 700 21px Arial, sans-serif; fill: #49637f; }
+      .step-title { font: 800 25px Arial, sans-serif; fill: #0f172a; }
+      .step-body { font: 400 20px Arial, sans-serif; fill: #2f4663; }
+      .num { font: 800 26px Arial, sans-serif; fill: #ffffff; }
+      .arrow { stroke: #2563eb; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="1200" height="1210" rx="28" fill="url(#bg)"/>
+  <rect x="32" y="112" width="1136" height="1070" rx="28" fill="#ffffff" opacity="0.58" stroke="#d9e8ff" stroke-width="2"/>
+  <!-- header-safe-zone-v30: avoids title overlap with background border -->
+  <rect x="160" y="18" width="880" height="92" rx="22" fill="url(#bg)" opacity="0.96"/>
+  <text x="600" y="54" text-anchor="middle" class="title">RetailOps BI ML</text>
+  <text x="600" y="90" text-anchor="middle" class="subtitle">E-commerce • BI • data quality • PostgreSQL/Neon • logistics risk</text>
+  <rect x="78" y="128" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
+  <circle cx="128" cy="181" r="29" fill="url(#badge)"/>
+  <text x="128" y="190" text-anchor="middle" class="num">1</text>
+<text x="190" y="166" class="step-title" text-anchor="start"><tspan x="190" dy="0">Olist data</tspan></text>
+<text x="190" y="200" class="step-body" text-anchor="start"><tspan x="190" dy="0">CSV / archive.zip with operational e-commerce information.</tspan></text>
+  <line x1="600" y1="241" x2="600" y2="251" class="arrow"/>
+  <path d="M591 242 L600 251 L609 242" fill="none" class="arrow"/>
+  <rect x="78" y="258" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
+  <circle cx="128" cy="311" r="29" fill="url(#badge)"/>
+  <text x="128" y="320" text-anchor="middle" class="num">2</text>
+<text x="190" y="296" class="step-title" text-anchor="start"><tspan x="190" dy="0">Python ETL</tspan></text>
+<text x="190" y="330" class="step-body" text-anchor="start"><tspan x="190" dy="0">Extraction • transformation • validation • loading with traceability.</tspan></text>
+  <line x1="600" y1="371" x2="600" y2="381" class="arrow"/>
+  <path d="M591 372 L600 381 L609 372" fill="none" class="arrow"/>
+  <rect x="78" y="388" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
+  <circle cx="128" cy="441" r="29" fill="url(#badge)"/>
+  <text x="128" y="450" text-anchor="middle" class="num">3</text>
+<text x="190" y="426" class="step-title" text-anchor="start"><tspan x="190" dy="0">PostgreSQL / Neon</tspan></text>
+<text x="190" y="460" class="step-body" text-anchor="start"><tspan x="190" dy="0">Staging and analytics tables for structured persistence.</tspan></text>
+  <line x1="600" y1="501" x2="600" y2="511" class="arrow"/>
+  <path d="M591 502 L600 511 L609 502" fill="none" class="arrow"/>
+  <rect x="78" y="518" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
+  <circle cx="128" cy="571" r="29" fill="url(#badge)"/>
+  <text x="128" y="580" text-anchor="middle" class="num">4</text>
+<text x="190" y="556" class="step-title" text-anchor="start"><tspan x="190" dy="0">SQL BI + ML views</tspan></text>
+<text x="190" y="590" class="step-body" text-anchor="start"><tspan x="190" dy="0">Commercial and logistics indicators prepared for analysis.</tspan></text>
+  <line x1="600" y1="631" x2="600" y2="641" class="arrow"/>
+  <path d="M591 632 L600 641 L609 632" fill="none" class="arrow"/>
+  <rect x="78" y="648" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
+  <circle cx="128" cy="701" r="29" fill="url(#badge)"/>
+  <text x="128" y="710" text-anchor="middle" class="num">5</text>
+<text x="190" y="686" class="step-title" text-anchor="start"><tspan x="190" dy="0">Data Quality Report</tspan></text>
+<text x="190" y="720" class="step-body" text-anchor="start"><tspan x="190" dy="0">Validation, consistency and data quality control.</tspan></text>
+  <line x1="600" y1="761" x2="600" y2="771" class="arrow"/>
+  <path d="M591 762 L600 771 L609 762" fill="none" class="arrow"/>
+  <rect x="78" y="778" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
+  <circle cx="128" cy="831" r="29" fill="url(#badge)"/>
+  <text x="128" y="840" text-anchor="middle" class="num">6</text>
+<text x="190" y="816" class="step-title" text-anchor="start"><tspan x="190" dy="0">ML model</tspan></text>
+<text x="190" y="850" class="step-body" text-anchor="start"><tspan x="190" dy="0">Late delivery risk estimation using logistics variables.</tspan></text>
+  <line x1="600" y1="891" x2="600" y2="901" class="arrow"/>
+  <path d="M591 892 L600 901 L609 892" fill="none" class="arrow"/>
+  <rect x="78" y="908" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
+  <circle cx="128" cy="961" r="29" fill="url(#badge)"/>
+  <text x="128" y="970" text-anchor="middle" class="num">7</text>
+<text x="190" y="946" class="step-title" text-anchor="start"><tspan x="190" dy="0">Streamlit dashboard</tspan></text>
+<text x="190" y="980" class="step-body" text-anchor="start"><tspan x="190" dy="0">KPIs • charts • queries • predictive scoring.</tspan></text>
+  <line x1="600" y1="1021" x2="600" y2="1031" class="arrow"/>
+  <path d="M591 1022 L600 1031 L609 1022" fill="none" class="arrow"/>
+  <rect x="78" y="1038" width="1044" height="106" rx="22" fill="#ffffff" stroke="#cfe1ff" stroke-width="2.2" filter="url(#shadow)"/>
+  <circle cx="128" cy="1091" r="29" fill="url(#badge)"/>
+  <text x="128" y="1100" text-anchor="middle" class="num">8</text>
+<text x="190" y="1076" class="step-title" text-anchor="start"><tspan x="190" dy="0">Cloud deployment</tspan></text>
+<text x="190" y="1110" class="step-body" text-anchor="start"><tspan x="190" dy="0">Streamlit Community Cloud + GitHub for public access.</tspan></text>
 </svg>

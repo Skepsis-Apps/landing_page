@@ -72,6 +72,74 @@
           "Streamlit Cloud"
         ],
         "architectureImage": "assets/architectures/openlogi-rfid-iot-ml-architecture-en.svg"
+      },
+      "fr": {
+        "category": "Logistique / IoT / Machine Learning",
+        "summary": "Démo web end-to-end qui transforme des données logistiques d’e-commerce retail en tour de contrôle avec traçabilité simulée, supervision IoT et intelligence prédictive.",
+        "description": "L’application permet d’explorer des informations logistiques depuis une interface Streamlit. Elle intègre commandes, produits, ventes, régions et livraisons avec des couches simulées RFID, IoT et inventaire WMS synthétique. Le modèle de Machine Learning estime le risque de livraison tardive en séparant les données observées des couches simulées.",
+        "purpose": "Montrer comment les données logistiques peuvent devenir de l’information exploitable grâce à la traçabilité simulée, au monitoring IoT, à l’analyse d’inventaire et à l’intelligence prédictive.",
+        "features": [
+          "Exploration des KPI de commandes, ventes et livraisons.",
+          "Analyse du risque de livraison tardive par mode d’expédition.",
+          "Traçabilité RFID simulée par commande, produit, lecteur, antenne et localisation.",
+          "Consultation d’alertes IoT simulées.",
+          "Suivi de température, humidité et vibration.",
+          "Visualisation d’un inventaire WMS synthétique.",
+          "Évaluation du stock, de la demande moyenne, du point de réapprovisionnement et du réassort suggéré.",
+          "Modèle de Machine Learning pour estimer la probabilité de livraison tardive.",
+          "Déploiement web sur Streamlit Community Cloud.",
+          "Dépôt avec scripts de préparation, simulateurs, artefacts de modèle, documentation et tests automatisés."
+        ],
+        "outcome": "Tour de contrôle logistique avec traçabilité simulée, KPI opérationnels et estimation du risque de livraison tardive.",
+        "articleTitle": "Article LinkedIn",
+        "title": "OpenLogi RFID IoT ML",
+        "architectureImage": "assets/architectures/openlogi-rfid-iot-ml-architecture-fr.svg",
+        "techStack": [
+          "Python",
+          "Streamlit",
+          "Pandas",
+          "Scikit-learn",
+          "RFID simulado",
+          "IoT simulado",
+          "WMS sintético",
+          "Machine Learning",
+          "GitHub",
+          "Streamlit Cloud"
+        ]
+      },
+      "nb": {
+        "category": "Logistikk / IoT / maskinlæring",
+        "summary": "End-to-end webdemo som omdanner logistikkdata fra retail e-handel til et kontrolltårn med simulert sporbarhet, IoT-overvåking og prediktiv intelligens.",
+        "description": "Applikasjonen lar brukeren utforske logistikkdata i et Streamlit-grensesnitt. Den integrerer ordre, produkter, salg, regioner og leveranser med simulerte lag for RFID, IoT og syntetisk WMS-lager. Maskinlæringsmodellen estimerer risiko for forsinket levering.",
+        "purpose": "Vise hvordan logistikkdata kan bli beslutningsstøtte gjennom simulert sporbarhet, IoT-overvåking, lageranalyse og prediktiv intelligens.",
+        "features": [
+          "Utforskning av KPI-er for ordre, salg og leveranser.",
+          "Analyse av risiko for forsinket levering etter fraktmåte.",
+          "Simulert RFID-sporbarhet per ordre, produkt, leser, antenne og lokasjon.",
+          "Visning av simulerte IoT-varsler.",
+          "Overvåking av temperatur, fuktighet og vibrasjon.",
+          "Visualisering av syntetisk WMS-lager.",
+          "Vurdering av lager, gjennomsnittlig etterspørsel, bestillingspunkt og foreslått påfyll.",
+          "Maskinlæringsmodell for sannsynlighet for forsinket levering.",
+          "Webdeploy på Streamlit Community Cloud.",
+          "Repository med klargjøringsskript, simulatorer, modellartefakter, dokumentasjon og tester."
+        ],
+        "outcome": "Logistisk kontrolltårn med simulert sporbarhet, operative KPI-er og risikovurdering for forsinket levering.",
+        "articleTitle": "LinkedIn-artikkel",
+        "title": "OpenLogi RFID IoT ML",
+        "architectureImage": "assets/architectures/openlogi-rfid-iot-ml-architecture-nb.svg",
+        "techStack": [
+          "Python",
+          "Streamlit",
+          "Pandas",
+          "Scikit-learn",
+          "RFID simulado",
+          "IoT simulado",
+          "WMS sintético",
+          "Machine Learning",
+          "GitHub",
+          "Streamlit Cloud"
+        ]
       }
     }
   },
@@ -150,6 +218,88 @@
           "Top-K analysis to identify orders with higher concentration of delays."
         ],
         "architectureImage": "assets/architectures/retailops-bi-ml-architecture-en.svg"
+      },
+      "fr": {
+        "category": "Retail / BI / Machine Learning",
+        "summary": "Solution analytique pour retail qui combine BI, exploration de données et Machine Learning afin d’étudier ventes, paiements, clients, produits et dynamique opérationnelle.",
+        "description": "RetailOps BI ML exploite le dataset Olist pour créer un environnement d’analyse commerciale avec tableaux de bord, indicateurs, segmentation et modèles prédictifs. La solution permet d’explorer la performance retail et d’identifier des opportunités d’amélioration dans les opérations.",
+        "purpose": "Démontrer comment les données transactionnelles de retail peuvent être converties en tableaux de bord, indicateurs et modèles prédictifs utiles à la prise de décision.",
+        "features": [
+          "Analyse des commandes, paiements, produits et clients.",
+          "Exploration de la performance commerciale.",
+          "Visualisation des indicateurs clés du retail.",
+          "Segmentation et analyse par catégories.",
+          "Analyse temporelle des ventes.",
+          "Indicateurs de livraison et comportement opérationnel.",
+          "Préparation et nettoyage des données.",
+          "Tableaux de bord interactifs.",
+          "Analyse exploratoire des variables commerciales.",
+          "Modèles de Machine Learning appliqués au retail.",
+          "Déploiement web pour consultation.",
+          "Documentation technique du pipeline.",
+          "Réutilisation du dataset public Olist.",
+          "Organisation modulaire du code.",
+          "Support à la prise de décision commerciale.",
+          "Visualisation claire des résultats.",
+          "Portefeuille technique orienté BI et IA appliquée."
+        ],
+        "outcome": "Tableau de bord retail avec BI, analyse de performance commerciale et modèles de Machine Learning.",
+        "articleTitle": "Article LinkedIn",
+        "title": "RetailOps BI ML",
+        "architectureImage": "assets/architectures/retailops-bi-ml-architecture-fr.svg",
+        "techStack": [
+          "Python",
+          "Streamlit",
+          "PostgreSQL",
+          "Neon",
+          "SQL",
+          "Pandas",
+          "Scikit-learn",
+          "Machine Learning",
+          "Data Quality",
+          "GitHub"
+        ]
+      },
+      "nb": {
+        "category": "Retail / BI / maskinlæring",
+        "summary": "Analytisk retail-løsning som kombinerer BI, datautforskning og maskinlæring for å analysere salg, betalinger, kunder, produkter og drift.",
+        "description": "RetailOps BI ML bruker Olist-datasettet til å bygge et miljø for forretningsanalyse med dashboards, indikatorer, segmentering og prediktive modeller.",
+        "purpose": "Vise hvordan transaksjonsdata fra retail kan omdannes til dashboards, indikatorer og prediktive modeller for beslutningsstøtte.",
+        "features": [
+          "Analyse av ordre, betalinger, produkter og kunder.",
+          "Utforskning av kommersiell ytelse.",
+          "Visualisering av nøkkelindikatorer for retail.",
+          "Segmentering og analyse per kategori.",
+          "Tidsanalyse av salg.",
+          "Indikatorer for levering og drift.",
+          "Dataklargjøring og rensing.",
+          "Interaktive dashboards.",
+          "Eksplorativ analyse av kommersielle variabler.",
+          "Maskinlæringsmodeller brukt i retail.",
+          "Webdeploy for konsultasjon.",
+          "Teknisk dokumentasjon av pipeline.",
+          "Gjenbruk av det offentlige Olist-datasettet.",
+          "Modulær kodeorganisering.",
+          "Støtte for kommersielle beslutninger.",
+          "Tydelig visualisering av resultater.",
+          "Teknisk portefølje for BI og anvendt KI."
+        ],
+        "outcome": "Retail-dashboard med BI, salgsanalyse og maskinlæringsmodeller.",
+        "articleTitle": "LinkedIn-artikkel",
+        "title": "RetailOps BI ML",
+        "architectureImage": "assets/architectures/retailops-bi-ml-architecture-nb.svg",
+        "techStack": [
+          "Python",
+          "Streamlit",
+          "PostgreSQL",
+          "Neon",
+          "SQL",
+          "Pandas",
+          "Scikit-learn",
+          "Machine Learning",
+          "Data Quality",
+          "GitHub"
+        ]
       }
     }
   },
@@ -229,6 +379,98 @@
           "Cloud deployment with GitHub, Render and Streamlit Community Cloud."
         ],
         "architectureImage": "assets/architectures/optiscada-ml-complete-architecture-en.svg"
+      },
+      "fr": {
+        "category": "Industrie 4.0 / IoT / Machine Learning",
+        "summary": "Solution industrielle qui intègre SCADA virtuel, MQTT, IoT, Machine Learning et optimisation pour superviser des variables de processus et publier des recommandations opérationnelles.",
+        "description": "OptiSCADA ML Complete connecte Node-RED, HiveMQ Cloud et Streamlit dans une architecture bidirectionnelle. Le système simule un processus industriel, publie télémétrie et alarmes, exécute modèles de prédiction et optimisation, puis renvoie des recommandations via MQTT.",
+        "purpose": "Valider une architecture industrielle end-to-end pour supervision, prédiction, optimisation et retour de recommandations dans un environnement cloud.",
+        "features": [
+          "SCADA virtuel avec Node-RED.",
+          "Publication et souscription MQTT.",
+          "Broker managé HiveMQ Cloud.",
+          "Dashboard Streamlit pour visualisation et IA.",
+          "Supervision de variables industrielles.",
+          "Alarmes et tendances.",
+          "Prédiction avec Machine Learning.",
+          "Optimisation opérationnelle.",
+          "Communication bidirectionnelle entre composants.",
+          "Déploiement cloud avec Render et Streamlit.",
+          "Docker pour l’orchestration de services.",
+          "Cas d’usage Industrie 4.0.",
+          "Documentation et versionnement GitHub."
+        ],
+        "outcome": "Architecture SCADA + IoT + ML validée end-to-end avec télémétrie, prédiction et recommandations.",
+        "articleTitle": "Article LinkedIn",
+        "title": "OptiSCADA ML Complete",
+        "architectureImage": "assets/architectures/optiscada-ml-complete-architecture-fr.svg",
+        "techStack": [
+          "Node-RED",
+          "MQTT",
+          "HiveMQ Cloud",
+          "Python",
+          "Pandas",
+          "NumPy",
+          "Scikit-learn",
+          "Random Forest",
+          "Isolation Forest",
+          "Streamlit",
+          "Plotly",
+          "Render",
+          "GitHub"
+        ],
+        "extraLinks": [
+          {
+            "label": "SCADA",
+            "url": "https://processmind-scada-ml.onrender.com/"
+          }
+        ]
+      },
+      "nb": {
+        "category": "Industri 4.0 / IoT / maskinlæring",
+        "summary": "Industriell løsning som integrerer virtuell SCADA, MQTT, IoT, maskinlæring og optimalisering for overvåking av prosessvariabler og anbefalinger.",
+        "description": "OptiSCADA ML Complete kobler Node-RED, HiveMQ Cloud og Streamlit i en toveis arkitektur. Systemet simulerer en industriell prosess, publiserer telemetri og alarmer, kjører prediksjon og optimalisering og sender anbefalinger via MQTT.",
+        "purpose": "Validere en industriell end-to-end-arkitektur for overvåking, prediksjon, optimalisering og anbefalinger i skyen.",
+        "features": [
+          "Virtuell SCADA med Node-RED.",
+          "MQTT-publisering og abonnement.",
+          "Administrert HiveMQ Cloud-broker.",
+          "Streamlit-dashboard for visualisering og KI.",
+          "Overvåking av industrielle variabler.",
+          "Alarmer og trender.",
+          "Prediksjon med maskinlæring.",
+          "Operasjonell optimalisering.",
+          "Toveis kommunikasjon mellom komponenter.",
+          "Skydeploy med Render og Streamlit.",
+          "Docker for tjenesteorkestrering.",
+          "Industri 4.0-brukstilfelle.",
+          "Dokumentasjon og versjonering i GitHub."
+        ],
+        "outcome": "SCADA + IoT + ML-arkitektur validert end-to-end med telemetri, prediksjon og anbefalinger.",
+        "articleTitle": "LinkedIn-artikkel",
+        "title": "OptiSCADA ML Complete",
+        "architectureImage": "assets/architectures/optiscada-ml-complete-architecture-nb.svg",
+        "techStack": [
+          "Node-RED",
+          "MQTT",
+          "HiveMQ Cloud",
+          "Python",
+          "Pandas",
+          "NumPy",
+          "Scikit-learn",
+          "Random Forest",
+          "Isolation Forest",
+          "Streamlit",
+          "Plotly",
+          "Render",
+          "GitHub"
+        ],
+        "extraLinks": [
+          {
+            "label": "SCADA",
+            "url": "https://processmind-scada-ml.onrender.com/"
+          }
+        ]
       }
     }
   },
@@ -296,6 +538,78 @@
           "Lower operational complexity and greater portability."
         ],
         "architectureImage": "assets/architectures/ames-housing-streamlit-architecture-en.svg"
+      },
+      "fr": {
+        "category": "Immobilier / Machine Learning / Streamlit",
+        "summary": "Application Streamlit de prédiction immobilière qui estime le prix de logements à Ames, Iowa, au moyen d’un modèle ElasticNet et d’un flux 100 % Python.",
+        "description": "L’application permet de saisir des variables immobilières, de valider les entrées, d’exécuter une prédiction de prix, d’afficher des graphiques et de conserver un historique de prédictions exportable.",
+        "purpose": "Fournir une démonstration web reproductible pour estimer le prix de logements avec un modèle supervisé, une interface légère et un déploiement simple dans le cloud.",
+        "features": [
+          "Interface web Streamlit.",
+          "Entrée de variables immobilières.",
+          "Validation des données saisies.",
+          "Prédiction de prix en temps réel.",
+          "Modèle ElasticNet avec scikit-learn.",
+          "Prétraitement et transformation de variables.",
+          "Visualisations générées avec Matplotlib.",
+          "Historique des prédictions en session.",
+          "Exportation de rapports CSV.",
+          "Métriques du modèle.",
+          "Déploiement sur Streamlit Community Cloud."
+        ],
+        "outcome": "Application web simple pour prédiction immobilière avec historique et visualisations interactives.",
+        "articleTitle": "Article LinkedIn",
+        "title": "Ames Housing Price Predictor",
+        "architectureImage": "assets/architectures/ames-housing-streamlit-architecture-fr.svg",
+        "techStack": [
+          "Python 3.11",
+          "Streamlit",
+          "Pandas",
+          "NumPy",
+          "Scikit-learn",
+          "Elastic Net Regression",
+          "Matplotlib",
+          "OpenPyXL",
+          "CSV",
+          "GitHub",
+          "Streamlit Cloud"
+        ]
+      },
+      "nb": {
+        "category": "Eiendom / maskinlæring / Streamlit",
+        "summary": "Streamlit-applikasjon for boligprisestimering i Ames, Iowa, med ElasticNet-modell og 100 % Python-flyt.",
+        "description": "Applikasjonen lar brukeren legge inn boligvariabler, validere inndata, kjøre prisestimat, vise grafer og beholde en eksporterbar prediksjonshistorikk.",
+        "purpose": "Gi en reproduserbar webdemo for boligprisestimering med en veiledet modell, lett grensesnitt og enkel skydeploy.",
+        "features": [
+          "Streamlit webgrensesnitt.",
+          "Inndata for boligvariabler.",
+          "Validering av inndata.",
+          "Prisestimat i sanntid.",
+          "ElasticNet-modell med scikit-learn.",
+          "Forbehandling og variabeltransformasjon.",
+          "Visualiseringer med Matplotlib.",
+          "Prediksjonshistorikk i økten.",
+          "CSV-eksport av rapporter.",
+          "Modellmetrikker.",
+          "Deploy på Streamlit Community Cloud."
+        ],
+        "outcome": "Enkel webapplikasjon for boligprisestimering med historikk og interaktive visualiseringer.",
+        "articleTitle": "LinkedIn-artikkel",
+        "title": "Ames Housing Price Predictor",
+        "architectureImage": "assets/architectures/ames-housing-streamlit-architecture-nb.svg",
+        "techStack": [
+          "Python 3.11",
+          "Streamlit",
+          "Pandas",
+          "NumPy",
+          "Scikit-learn",
+          "Elastic Net Regression",
+          "Matplotlib",
+          "OpenPyXL",
+          "CSV",
+          "GitHub",
+          "Streamlit Cloud"
+        ]
       }
     }
   },
@@ -377,6 +691,104 @@
           "Public access through HTTPS."
         ],
         "architectureImage": "assets/architectures/ames-housing-python-r-cloud-architecture-en.svg"
+      },
+      "fr": {
+        "category": "Python + R / FastAPI / Machine Learning",
+        "summary": "Système cloud Python + R pour prédiction immobilière, combinant FastAPI, R Plumber, modèles LASSO et génération de rapports.",
+        "description": "Cette version distribue la logique entre une application Python/FastAPI et un service R/Plumber. Python gère l’interface, les routes, l’historique et les rapports, tandis que R charge le modèle glmnet et renvoie prédictions, intervalles et graphiques.",
+        "purpose": "Démontrer une architecture hybride Python + R en cloud pour intégrer interface web, API REST, modèle statistique, rapports et traçabilité.",
+        "features": [
+          "Application web Python avec FastAPI.",
+          "Service R exposé avec Plumber.",
+          "Communication HTTPS REST entre services.",
+          "Modèle glmnet LASSO en R.",
+          "Prédiction de prix et intervalles de confiance.",
+          "Gestion d’historique en CSV.",
+          "Génération de rapports PDF.",
+          "Templates HTML avec Jinja2.",
+          "Déploiement sur Render Cloud.",
+          "Architecture de microservices.",
+          "Modèle R chargé en mémoire.",
+          "Traçabilité des prédictions."
+        ],
+        "outcome": "Architecture cloud hybride Python + R avec prédiction immobilière, API REST et génération de rapports.",
+        "articleTitle": "Article LinkedIn",
+        "title": "Ames Housing Price Predictor (Python + R Cloud Edition)",
+        "architectureImage": "assets/architectures/ames-housing-python-r-cloud-architecture-fr.svg",
+        "techStack": [
+          "Python 3.12",
+          "R 4.x",
+          "FastAPI",
+          "Jinja2",
+          "Pydantic",
+          "Plumber",
+          "glmnet",
+          "Elastic Net Regression",
+          "ggplot2",
+          "REST API",
+          "JSON",
+          "Requests",
+          "Docker",
+          "Render",
+          "GitHub",
+          "PDF",
+          "CSV"
+        ],
+        "extraLinks": [
+          {
+            "label": "R Plumber",
+            "url": "https://ames-r-service.onrender.com/"
+          }
+        ]
+      },
+      "nb": {
+        "category": "Python + R / FastAPI / maskinlæring",
+        "summary": "Python + R skybasert system for boligprisestimering som kombinerer FastAPI, R Plumber, LASSO-modeller og rapportgenerering.",
+        "description": "Denne versjonen fordeler logikken mellom en Python/FastAPI-applikasjon og en R/Plumber-tjeneste. Python håndterer grensesnitt, ruter, historikk og rapporter, mens R laster glmnet-modellen og returnerer prediksjoner, intervaller og grafer.",
+        "purpose": "Demonstrere en hybrid Python + R skyarkitektur for webgrensesnitt, REST API, statistisk modell, rapporter og sporbarhet.",
+        "features": [
+          "Python webapplikasjon med FastAPI.",
+          "R-tjeneste eksponert med Plumber.",
+          "HTTPS REST-kommunikasjon mellom tjenester.",
+          "glmnet LASSO-modell i R.",
+          "Prisestimat og konfidensintervaller.",
+          "CSV-basert historikk.",
+          "Generering av PDF-rapporter.",
+          "HTML-maler med Jinja2.",
+          "Deploy på Render Cloud.",
+          "Mikrotjenestearkitektur.",
+          "R-modell lastet i minnet.",
+          "Sporbarhet for prediksjoner."
+        ],
+        "outcome": "Hybrid Python + R skyarkitektur med boligprisestimering, REST API og rapportgenerering.",
+        "articleTitle": "LinkedIn-artikkel",
+        "title": "Ames Housing Price Predictor (Python + R Cloud Edition)",
+        "architectureImage": "assets/architectures/ames-housing-python-r-cloud-architecture-nb.svg",
+        "techStack": [
+          "Python 3.12",
+          "R 4.x",
+          "FastAPI",
+          "Jinja2",
+          "Pydantic",
+          "Plumber",
+          "glmnet",
+          "Elastic Net Regression",
+          "ggplot2",
+          "REST API",
+          "JSON",
+          "Requests",
+          "Docker",
+          "Render",
+          "GitHub",
+          "PDF",
+          "CSV"
+        ],
+        "extraLinks": [
+          {
+            "label": "R Plumber",
+            "url": "https://ames-r-service.onrender.com/"
+          }
+        ]
       }
     }
   },
@@ -446,6 +858,80 @@
           "Integration of supervised and unsupervised Machine Learning."
         ],
         "architectureImage": "assets/architectures/stockpredict-mvp-ml-architecture-en.svg"
+      },
+      "fr": {
+        "category": "Inventaires / Demande / Machine Learning",
+        "summary": "MVP de gestion intelligente d’inventaires avec prévision de demande, classification ABC, indicateurs opérationnels et exportation de résultats.",
+        "description": "StockPredict MVP permet de charger des données CSV, d’analyser l’inventaire, de calculer des KPI, de générer des alertes, de classifier les SKU, de prévoir la demande et d’exporter les résultats depuis une application Streamlit.",
+        "purpose": "Montrer comment un système léger peut soutenir la planification d’inventaire, la prévision de demande et les décisions de réapprovisionnement.",
+        "features": [
+          "Dashboard exécutif d’inventaire.",
+          "Chargement et validation de données CSV.",
+          "KPI de stock et couverture.",
+          "Alertes opérationnelles.",
+          "Classification ABC.",
+          "Prévision de demande.",
+          "Modèle RandomForestRegressor.",
+          "Clustering K-Means pour SKU.",
+          "Exportation CSV.",
+          "Journalisation du système.",
+          "Tests unitaires et fonctionnels.",
+          "Déploiement principal sur Streamlit Cloud."
+        ],
+        "outcome": "MVP analytique pour inventaires, demande, alertes et réapprovisionnement.",
+        "articleTitle": "Article LinkedIn",
+        "title": "StockPredict MVP",
+        "architectureImage": "assets/architectures/stockpredict-mvp-ml-architecture-fr.svg",
+        "techStack": [
+          "Python",
+          "Pandas",
+          "NumPy",
+          "Plotly",
+          "Random Forest Regressor",
+          "K-Means Clustering",
+          "Statsmodels",
+          "Streamlit",
+          "Pytest",
+          "GitHub",
+          "Streamlit Cloud"
+        ]
+      },
+      "nb": {
+        "category": "Lager / etterspørsel / maskinlæring",
+        "summary": "MVP for intelligent lagerstyring med etterspørselsprognose, ABC-klassifisering, operative indikatorer og eksport av resultater.",
+        "description": "StockPredict MVP lar brukeren laste CSV-data, analysere lager, beregne KPI-er, generere varsler, klassifisere SKU-er, forutsi etterspørsel og eksportere resultater fra en Streamlit-app.",
+        "purpose": "Vise hvordan et lett system kan støtte lagerplanlegging, etterspørselsprognoser og beslutninger om påfyll.",
+        "features": [
+          "Ledelsesdashboard for lager.",
+          "Lasting og validering av CSV-data.",
+          "KPI-er for lager og dekning.",
+          "Operasjonelle varsler.",
+          "ABC-klassifisering.",
+          "Etterspørselsprognose.",
+          "RandomForestRegressor-modell.",
+          "K-Means clustering av SKU-er.",
+          "CSV-eksport.",
+          "Systemlogging.",
+          "Enhets- og funksjonstester.",
+          "Hoveddeploy på Streamlit Cloud."
+        ],
+        "outcome": "Analytisk MVP for lager, etterspørsel, varsler og påfyll.",
+        "articleTitle": "LinkedIn-artikkel",
+        "title": "StockPredict MVP",
+        "architectureImage": "assets/architectures/stockpredict-mvp-ml-architecture-nb.svg",
+        "techStack": [
+          "Python",
+          "Pandas",
+          "NumPy",
+          "Plotly",
+          "Random Forest Regressor",
+          "K-Means Clustering",
+          "Statsmodels",
+          "Streamlit",
+          "Pytest",
+          "GitHub",
+          "Streamlit Cloud"
+        ]
       }
     }
   },
@@ -527,6 +1013,514 @@
           "Integration with GitHub and automatic CI/CD."
         ],
         "architectureImage": "assets/architectures/industrial-ai-prototype-architecture-en.svg"
+      },
+      "fr": {
+        "category": "Industrie 4.0 / FastAPI / Streamlit / ML",
+        "summary": "Prototype industriel avec simulateur SCADA-like, historien SQLite, API FastAPI, modèle de Machine Learning et dashboard Streamlit déployé sur Render.",
+        "description": "Le système simule des variables de processus industriel, les stocke dans SQLite, expose endpoints API et prédictions ML, puis présente la supervision et les tendances dans un tableau de bord Streamlit.",
+        "purpose": "Démontrer un flux industriel complet allant de la simulation de données à l’API, au modèle prédictif et à la visualisation opérationnelle.",
+        "features": [
+          "Simulateur SCADA-like.",
+          "Variables simulées de pression, débit, vibration et température.",
+          "Historien SQLite.",
+          "API FastAPI avec endpoints de santé, données et prédiction.",
+          "Modèle RandomForestRegressor.",
+          "Prédiction de température.",
+          "Calcul de métriques MAE.",
+          "Réponses JSON.",
+          "Dashboard Streamlit.",
+          "Visualisation de tendances.",
+          "Déploiement sur Render.",
+          "Pipeline de déploiement depuis GitHub.",
+          "Architecture modulaire.",
+          "Cas d’usage industriel."
+        ],
+        "outcome": "Prototype industriel IA avec simulation, historien, API, modèle prédictif et dashboard opérationnel.",
+        "articleTitle": "Article LinkedIn",
+        "title": "Industrial AI Prototype",
+        "architectureImage": "assets/architectures/industrial-ai-prototype-architecture-fr.svg",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "Streamlit",
+          "SQLite",
+          "Scikit-learn",
+          "RandomForestRegressor",
+          "Docker",
+          "Render.com",
+          "GitHub",
+          "SCADA-like",
+          "API REST",
+          "Historian",
+          "CI/CD"
+        ],
+        "extraLinks": [
+          {
+            "label": "API",
+            "url": "https://industrial-ai-api-5ypf.onrender.com/"
+          }
+        ]
+      },
+      "nb": {
+        "category": "Industri 4.0 / FastAPI / Streamlit / ML",
+        "summary": "Industriell prototype med SCADA-lignende simulator, SQLite-historian, FastAPI API, maskinlæringsmodell og Streamlit-dashboard på Render.",
+        "description": "Systemet simulerer industrielle prosessvariabler, lagrer dem i SQLite, eksponerer API-endepunkter og ML-prediksjoner, og viser overvåking og trender i et Streamlit-dashboard.",
+        "purpose": "Demonstrere en komplett industriell flyt fra datasimulering til API, prediktiv modell og operasjonell visualisering.",
+        "features": [
+          "SCADA-lignende simulator.",
+          "Simulerte variabler for trykk, flyt, vibrasjon og temperatur.",
+          "SQLite-historian.",
+          "FastAPI API med helse-, data- og prediksjonsendepunkter.",
+          "RandomForestRegressor-modell.",
+          "Prediksjon av temperatur.",
+          "Beregning av MAE-metrikker.",
+          "JSON-responser.",
+          "Streamlit-dashboard.",
+          "Visualisering av trender.",
+          "Deploy på Render.",
+          "Deploy-pipeline fra GitHub.",
+          "Modulær arkitektur.",
+          "Industrielt brukstilfelle."
+        ],
+        "outcome": "Industriell KI-prototype med simulering, historian, API, prediktiv modell og operasjonelt dashboard.",
+        "articleTitle": "LinkedIn-artikkel",
+        "title": "Industrial AI Prototype",
+        "architectureImage": "assets/architectures/industrial-ai-prototype-architecture-nb.svg",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "Streamlit",
+          "SQLite",
+          "Scikit-learn",
+          "RandomForestRegressor",
+          "Docker",
+          "Render.com",
+          "GitHub",
+          "SCADA-like",
+          "API REST",
+          "Historian",
+          "CI/CD"
+        ],
+        "extraLinks": [
+          {
+            "label": "API",
+            "url": "https://industrial-ai-api-5ypf.onrender.com/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "genadiag",
+    "title": "GenaDiag",
+    "category": "Salud / IA evolutiva / R Shiny",
+    "summary": "Prototipo académico y tecnológico para clasificación exploratoria de cáncer de mama mediante IA, ciencia de datos, selección evolutiva de variables, R Shiny y trazabilidad funcional.",
+    "description": "GenaDiag implementa una arquitectura por capas que separa entrenamiento local, inferencia web y persistencia externa. Integra modelos supervisados de clasificación, selección de variables mediante Algoritmo Genético, modelo serializado en RDS, aplicación web en R Shiny, reportes HTML y registro persistente de evaluaciones en Google Sheets.",
+    "purpose": "Demostrar cómo una solución de inteligencia artificial aplicada puede integrar preparación de datos, aprendizaje automático supervisado, selección evolutiva de variables, serialización de modelos, despliegue web, trazabilidad de predicciones y persistencia externa para construir un MVP funcional de clasificación exploratoria biomédica.",
+    "features": [
+      "Clasificación exploratoria Benigno/Maligno.",
+      "Captura web de variables morfológicas seleccionadas.",
+      "Generación automática de ID anónimo por sesión.",
+      "Validación de entradas contra rangos históricos del dataset.",
+      "Predicción mediante modelo Random Forest simplificado.",
+      "Selección evolutiva de variables mediante Algoritmo Genético.",
+      "Comparación de modelos CART y Random Forest.",
+      "Reducción dimensional de 30 variables originales a 4 variables finales.",
+      "Registro de probabilidades para clase benigna y maligna.",
+      "Descarga de reporte HTML por evaluación.",
+      "Bitácora persistente en Google Sheets.",
+      "Advertencia metodológica explícita: no sustituye diagnóstico médico."
+    ],
+    "architectureImage": "assets/architectures/genadiag-architecture.svg",
+    "techStack": [
+      "R",
+      "R Shiny",
+      "CART",
+      "Random Forest",
+      "Algoritmo Genético",
+      "modelo_final.rds",
+      "Google Sheets",
+      "CSV",
+      "HTML",
+      "shinyapps.io"
+    ],
+    "appUrl": "https://antoniot73.shinyapps.io/genadiag/",
+    "githubUrl": "",
+    "datasetUrl": "https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data",
+    "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7472542338591014912/",
+    "date": "2026-06-10",
+    "outcome": "De un dataset biomédico clásico a un MVP funcional en R Shiny con selección evolutiva, modelo serializado, predicción exploratoria, reporte HTML y trazabilidad persistente.",
+    "articleTitle": "GenaDiag: IA evolutiva y clasificación exploratoria biomédica con R Shiny",
+    "extraLinks": [
+      {
+        "label": "Infografía",
+        "url": "https://infographygenadiag.netlify.app/"
+      }
+    ],
+    "translations": {
+      "en": {
+        "category": "Healthcare / Evolutionary AI / R Shiny",
+        "summary": "Academic and technological prototype for exploratory breast cancer classification using AI, data science, evolutionary feature selection, R Shiny and functional traceability.",
+        "description": "GenaDiag implements a layered architecture that separates local training, web inference and external persistence. It integrates supervised classification models, feature selection through a Genetic Algorithm, an RDS serialized model, an R Shiny web app, HTML reports and persistent evaluation logs in Google Sheets.",
+        "purpose": "Demonstrate how an applied AI solution can integrate data preparation, supervised machine learning, evolutionary feature selection, model serialization, web deployment, prediction traceability and external persistence to build a functional MVP for exploratory biomedical classification.",
+        "features": [
+          "Exploratory Benign/Malignant classification.",
+          "Web capture of selected morphological variables.",
+          "Automatic anonymous session ID generation.",
+          "Input validation against historical dataset ranges.",
+          "Prediction using a simplified Random Forest model.",
+          "Evolutionary feature selection with a Genetic Algorithm.",
+          "Comparison of CART and Random Forest models.",
+          "Dimensionality reduction from 30 original variables to 4 final variables.",
+          "Probability logging for benign and malignant classes.",
+          "HTML report download for each evaluation.",
+          "Persistent logbook in Google Sheets.",
+          "Explicit methodological warning: it does not replace medical diagnosis."
+        ],
+        "techStack": [
+          "R",
+          "R Shiny",
+          "CART",
+          "Random Forest",
+          "Genetic Algorithm",
+          "modelo_final.rds",
+          "Google Sheets",
+          "CSV",
+          "HTML",
+          "shinyapps.io"
+        ],
+        "architectureImage": "assets/architectures/genadiag-architecture-en.svg",
+        "outcome": "From a classic biomedical dataset to a functional R Shiny MVP with evolutionary selection, serialized model, exploratory prediction, HTML reporting and persistent traceability.",
+        "articleTitle": "GenaDiag: evolutionary AI and exploratory biomedical classification with R Shiny",
+        "extraLinks": [
+          {
+            "label": "Infographic",
+            "url": "https://infographygenadiag.netlify.app/"
+          }
+        ]
+      },
+      "fr": {
+        "category": "Santé / IA évolutive / R Shiny",
+        "summary": "Prototype académique pour la classification exploratoire du cancer du sein avec R, Machine Learning, sélection évolutive de variables, Shiny et traçabilité via Google Sheets.",
+        "description": "GenaDiag intègre un pipeline local d’entraînement, modèles supervisés, algorithme génétique, application R Shiny, génération de rapports HTML et registre persistant de prédictions dans Google Sheets. Le système est exploratoire et ne remplace pas un diagnostic médical.",
+        "purpose": "Démontrer une solution IA intégrant préparation de données, classification supervisée, sélection évolutive de variables, déploiement web, traçabilité et persistance externe.",
+        "features": [
+          "Classification exploratoire bénin/malin.",
+          "Saisie web de variables morphologiques sélectionnées.",
+          "ID anonyme par session.",
+          "Validation des entrées selon les plages historiques.",
+          "Prédiction avec Random Forest simplifié.",
+          "Modèle sérialisé modelo_final.rds.",
+          "Sélection de variables par algorithme génétique.",
+          "Comparaison CART et Random Forest.",
+          "Réduction de 30 variables à 4 variables finales.",
+          "Probabilités par classe.",
+          "Téléchargement de rapport HTML.",
+          "Journal persistant dans Google Sheets."
+        ],
+        "outcome": "MVP biomédical exploratoire avec IA évolutive, R Shiny, modèle sérialisé et traçabilité fonctionnelle.",
+        "articleTitle": "Article LinkedIn",
+        "title": "GenaDiag",
+        "architectureImage": "assets/architectures/genadiag-architecture-fr.svg",
+        "techStack": [
+          "R",
+          "R Shiny",
+          "CART",
+          "Random Forest",
+          "Algoritmo Genético",
+          "modelo_final.rds",
+          "Google Sheets",
+          "CSV",
+          "HTML",
+          "shinyapps.io"
+        ],
+        "extraLinks": [
+          {
+            "label": "Infografía",
+            "url": "https://infographygenadiag.netlify.app/"
+          }
+        ]
+      },
+      "nb": {
+        "category": "Helse / evolusjonær KI / R Shiny",
+        "summary": "Akademisk prototype for utforskende brystkreftklassifisering med R, maskinlæring, evolusjonært variabelutvalg, Shiny og sporbarhet via Google Sheets.",
+        "description": "GenaDiag integrerer lokal treningspipeline, veiledede modeller, genetisk algoritme, R Shiny-applikasjon, HTML-rapporter og vedvarende prediksjonslogg i Google Sheets. Systemet er utforskende og erstatter ikke medisinsk diagnose.",
+        "purpose": "Demonstrere en KI-løsning som integrerer dataklargjøring, veiledet klassifisering, evolusjonært variabelutvalg, webdeploy, sporbarhet og ekstern persistens.",
+        "features": [
+          "Utforskende benign/malign klassifisering.",
+          "Webregistrering av utvalgte morfologiske variabler.",
+          "Anonym ID per økt.",
+          "Validering av inndata mot historiske intervaller.",
+          "Prediksjon med forenklet Random Forest.",
+          "Serialisert modell modelo_final.rds.",
+          "Variabelutvalg med genetisk algoritme.",
+          "Sammenligning av CART og Random Forest.",
+          "Reduksjon fra 30 variabler til 4 finale variabler.",
+          "Sannsynligheter per klasse.",
+          "Nedlasting av HTML-rapport.",
+          "Vedvarende logg i Google Sheets."
+        ],
+        "outcome": "Utforskende biomedisinsk MVP med evolusjonær KI, R Shiny, serialisert modell og funksjonell sporbarhet.",
+        "articleTitle": "LinkedIn-artikkel",
+        "title": "GenaDiag",
+        "architectureImage": "assets/architectures/genadiag-architecture-nb.svg",
+        "techStack": [
+          "R",
+          "R Shiny",
+          "CART",
+          "Random Forest",
+          "Algoritmo Genético",
+          "modelo_final.rds",
+          "Google Sheets",
+          "CSV",
+          "HTML",
+          "shinyapps.io"
+        ],
+        "extraLinks": [
+          {
+            "label": "Infografía",
+            "url": "https://infographygenadiag.netlify.app/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "bioverify-zero-v2",
+    "title": "BioVerify-Zero v2",
+    "category": "Visión computacional / Biometría / FastAPI",
+    "summary": "Prototipo académico de verificación facial 1:1 que integra frontend web, backend API, visión computacional, embeddings faciales y despliegue cloud con Docker.",
+    "description": "BioVerify-Zero v2 permite comparar una imagen facial cargada desde un documento con una captura facial en vivo tomada desde la cámara del navegador. Integra consentimiento explícito, captura mediante cámara, procesamiento temporal de imágenes, detección facial con OpenCV YuNet, generación de embeddings con SFace y despliegue público mediante Docker en Hugging Face Spaces.",
+    "purpose": "Demostrar cómo una solución de verificación facial 1:1 puede integrar captura web, procesamiento biométrico temporal, servicios API, visión computacional, comparación de embeddings faciales y despliegue cloud en un MVP funcional, reproducible y accesible desde navegador.",
+    "features": [
+      "Interfaz web responsiva de fondo claro.",
+      "Declaración de mayoría de edad y consentimiento explícito.",
+      "Carga de imagen facial del documento.",
+      "Previsualización de imagen cargada.",
+      "Activación de cámara desde navegador.",
+      "Captura facial en vivo mediante Canvas.",
+      "Envío de imágenes en Base64 al backend.",
+      "API backend con FastAPI y endpoint /api/v1/verify.",
+      "Detección facial con OpenCV YuNet.",
+      "Generación de embeddings faciales con SFace.",
+      "Comparación 1:1 mediante similitud coseno.",
+      "Respuesta JSON con score, decisión y métricas de calidad.",
+      "Procesamiento biométrico temporal sin almacenamiento deliberado de imágenes ni embeddings.",
+      "Despliegue cloud con Docker en Hugging Face Spaces."
+    ],
+    "architectureImage": "assets/architectures/bioverify-zero-v2-architecture.svg",
+    "techStack": [
+      "Python",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "FastAPI",
+      "Uvicorn",
+      "Pydantic",
+      "OpenCV Contrib Headless",
+      "YuNet",
+      "SFace",
+      "NumPy",
+      "ONNX",
+      "Docker",
+      "Hugging Face Spaces",
+      "Git LFS",
+      "GitHub"
+    ],
+    "appUrl": "https://antoniot73-bioverify-zero-v2.hf.space",
+    "githubUrl": "https://github.com/antoniot73/bioverify-zero-v2",
+    "datasetUrl": "",
+    "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7472557292962516992/",
+    "date": "2026-06-10",
+    "outcome": "De captura facial web a una arquitectura biométrica 1:1 con API, modelos OpenCV, comparación de embeddings, respuesta JSON y despliegue cloud contenerizado.",
+    "articleTitle": "BioVerify-Zero v2: verificación facial 1:1 con OpenCV, FastAPI y Hugging Face Spaces",
+    "extraLinks": [
+      {
+        "label": "Health",
+        "url": "https://antoniot73-bioverify-zero-v2.hf.space/health"
+      },
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/spaces/antoniot73/bioverify-zero-v2"
+      },
+      {
+        "label": "Infografía",
+        "url": "https://bioverifyzerov2.netlify.app/"
+      }
+    ],
+    "translations": {
+      "en": {
+        "category": "Computer Vision / Biometrics / FastAPI",
+        "summary": "Academic 1:1 facial verification prototype that integrates a web frontend, backend API, computer vision, facial embeddings and Docker-based cloud deployment.",
+        "description": "BioVerify-Zero v2 compares a facial image uploaded from a document with a live face capture taken from the browser camera. It integrates explicit consent, camera capture, temporary image processing, face detection with OpenCV YuNet, embedding generation with SFace and public deployment through Docker on Hugging Face Spaces.",
+        "purpose": "Demonstrate how a 1:1 facial verification solution can integrate web capture, temporary biometric processing, API services, computer vision, facial embedding comparison and cloud deployment into a functional, reproducible MVP accessible from a browser.",
+        "features": [
+          "Responsive light-background web interface.",
+          "Age declaration and explicit consent.",
+          "Upload of document facial image.",
+          "Preview of uploaded image.",
+          "Browser camera activation.",
+          "Live facial capture through Canvas.",
+          "Base64 image submission to the backend.",
+          "FastAPI backend with /api/v1/verify endpoint.",
+          "Face detection with OpenCV YuNet.",
+          "Facial embedding generation with SFace.",
+          "1:1 comparison through cosine similarity.",
+          "JSON response with score, decision and quality metrics.",
+          "Temporary biometric processing without deliberate storage of images or embeddings.",
+          "Cloud deployment with Docker on Hugging Face Spaces."
+        ],
+        "techStack": [
+          "Python",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "FastAPI",
+          "Uvicorn",
+          "Pydantic",
+          "OpenCV Contrib Headless",
+          "YuNet",
+          "SFace",
+          "NumPy",
+          "ONNX",
+          "Docker",
+          "Hugging Face Spaces",
+          "Git LFS",
+          "GitHub"
+        ],
+        "architectureImage": "assets/architectures/bioverify-zero-v2-architecture-en.svg",
+        "outcome": "From web facial capture to a 1:1 biometric architecture with API, OpenCV models, embedding comparison, JSON response and containerized cloud deployment.",
+        "articleTitle": "BioVerify-Zero v2: 1:1 facial verification with OpenCV, FastAPI and Hugging Face Spaces",
+        "extraLinks": [
+          {
+            "label": "Health",
+            "url": "https://antoniot73-bioverify-zero-v2.hf.space/health"
+          },
+          {
+            "label": "Hugging Face",
+            "url": "https://huggingface.co/spaces/antoniot73/bioverify-zero-v2"
+          },
+          {
+            "label": "Infographic",
+            "url": "https://bioverifyzerov2.netlify.app/"
+          }
+        ]
+      },
+      "fr": {
+        "category": "Vision par ordinateur / Biométrie / FastAPI",
+        "summary": "Prototype académique de vérification faciale 1:1 avec frontend web, API FastAPI, OpenCV YuNet, SFace, embeddings faciaux et déploiement Docker sur Hugging Face Spaces.",
+        "description": "BioVerify-Zero v2 compare une image de document avec une capture faciale en direct. Le système traite temporairement les images, détecte le visage, génère des embeddings, calcule la similarité cosinus et renvoie une décision match/no_match sans stockage délibéré d’images ni d’embeddings.",
+        "purpose": "Démontrer une architecture complète de vérification faciale 1:1 avec capture web, traitement biométrique temporaire, API REST, vision par ordinateur et déploiement cloud.",
+        "features": [
+          "Interface web responsive.",
+          "Consentement explicite et déclaration de majorité.",
+          "Chargement d’image de document.",
+          "Prévisualisation de l’image.",
+          "Activation de caméra depuis navigateur.",
+          "Capture faciale en direct avec Canvas.",
+          "Envoi Base64 au backend.",
+          "API FastAPI avec endpoint de santé.",
+          "Détection faciale avec OpenCV YuNet.",
+          "Embeddings faciaux avec SFace.",
+          "Comparaison 1:1 par similarité cosinus.",
+          "Réponse JSON avec score et décision.",
+          "Traitement biométrique temporaire.",
+          "Déploiement Docker sur Hugging Face Spaces."
+        ],
+        "outcome": "MVP de vérification faciale 1:1 avec vision computationale, embeddings et API cloud.",
+        "articleTitle": "Article LinkedIn",
+        "title": "BioVerify-Zero v2",
+        "architectureImage": "assets/architectures/bioverify-zero-v2-architecture-fr.svg",
+        "techStack": [
+          "Python",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "FastAPI",
+          "Uvicorn",
+          "Pydantic",
+          "OpenCV Contrib Headless",
+          "YuNet",
+          "SFace",
+          "NumPy",
+          "ONNX",
+          "Docker",
+          "Hugging Face Spaces",
+          "Git LFS",
+          "GitHub"
+        ],
+        "extraLinks": [
+          {
+            "label": "Health",
+            "url": "https://antoniot73-bioverify-zero-v2.hf.space/health"
+          },
+          {
+            "label": "Hugging Face",
+            "url": "https://huggingface.co/spaces/antoniot73/bioverify-zero-v2"
+          },
+          {
+            "label": "Infografía",
+            "url": "https://bioverifyzerov2.netlify.app/"
+          }
+        ]
+      },
+      "nb": {
+        "category": "Datasyn / biometri / FastAPI",
+        "summary": "Akademisk prototype for 1:1 ansiktsverifisering med webfrontend, FastAPI API, OpenCV YuNet, SFace, ansiktsembeddings og Docker-deploy på Hugging Face Spaces.",
+        "description": "BioVerify-Zero v2 sammenligner et dokumentbilde med en live ansiktsfangst. Systemet behandler bilder midlertidig, oppdager ansikt, genererer embeddings, beregner cosinuslikhet og returnerer match/no_match uten bevisst lagring av bilder eller embeddings.",
+        "purpose": "Demonstrere en komplett arkitektur for 1:1 ansiktsverifisering med webfangst, midlertidig biometrisk prosessering, REST API, datasyn og skydeploy.",
+        "features": [
+          "Responsivt webgrensesnitt.",
+          "Eksplisitt samtykke og aldersbekreftelse.",
+          "Opplasting av dokumentbilde.",
+          "Forhåndsvisning av bilde.",
+          "Kameraaktivering fra nettleser.",
+          "Live ansiktsfangst med Canvas.",
+          "Base64-sending til backend.",
+          "FastAPI API med health endpoint.",
+          "Ansiktsdeteksjon med OpenCV YuNet.",
+          "Ansiktsembeddings med SFace.",
+          "1:1-sammenligning med cosinuslikhet.",
+          "JSON-respons med score og beslutning.",
+          "Midlertidig biometrisk prosessering.",
+          "Docker-deploy på Hugging Face Spaces."
+        ],
+        "outcome": "MVP for 1:1 ansiktsverifisering med datasyn, embeddings og cloud API.",
+        "articleTitle": "LinkedIn-artikkel",
+        "title": "BioVerify-Zero v2",
+        "architectureImage": "assets/architectures/bioverify-zero-v2-architecture-nb.svg",
+        "techStack": [
+          "Python",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "FastAPI",
+          "Uvicorn",
+          "Pydantic",
+          "OpenCV Contrib Headless",
+          "YuNet",
+          "SFace",
+          "NumPy",
+          "ONNX",
+          "Docker",
+          "Hugging Face Spaces",
+          "Git LFS",
+          "GitHub"
+        ],
+        "extraLinks": [
+          {
+            "label": "Health",
+            "url": "https://antoniot73-bioverify-zero-v2.hf.space/health"
+          },
+          {
+            "label": "Hugging Face",
+            "url": "https://huggingface.co/spaces/antoniot73/bioverify-zero-v2"
+          },
+          {
+            "label": "Infografía",
+            "url": "https://bioverifyzerov2.netlify.app/"
+          }
+        ]
       }
     }
   }

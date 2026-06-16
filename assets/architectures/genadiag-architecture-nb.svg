@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1210" viewBox="0 0 1200 1210" role="img" aria-labelledby="title desc">
+  <title id="title">GenaDiag | Teknologisk integrasjonsarkitektur</title>
+  <desc id="desc">Helse / evolusjonær KI / R Shiny</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#eef6ff"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#087f8c"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .title { font: 800 43px Arial, sans-serif; fill: #123f69; }
+      .subtitle { font: 700 21px Arial, sans-serif; fill: #49637f; }
+      .box-title { font: 800 25px Arial, sans-serif; fill: #071225; }
+      .box-text { font: 400 20px Arial, sans-serif; fill: #233b56; }
+      .num { font: 800 28px Arial, sans-serif; fill: white; }
+      .arrow { font: 800 35px Arial, sans-serif; fill: #2563eb; }
+    </style>
+  </defs>
+  <rect width="1200" height="1210" rx="32" fill="url(#bg)"/>
+  <rect x="48" y="165" width="1104" height="990" rx="26" fill="#ffffff" opacity="0.62" stroke="#dbeafe" stroke-width="2"/>
+  <text x="600" y="75" text-anchor="middle" class="title">GenaDiag</text>
+  <text x="600" y="135" text-anchor="middle" class="subtitle">Helse / evolusjonær KI / R Shiny</text>
+  <g filter="url(#shadow)">
+    <rect x="110" y="295" width="980" height="118" rx="22" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/>
+    <circle cx="155" cy="354" r="35" fill="url(#badge)"/>
+    <text x="155" y="364" text-anchor="middle" class="num">1</text>
+    <text x="235" y="338" class="box-title">Wisconsin-datasett</text>
+    <text x="235" y="373" class="box-text">30 morfologiske variabler for utforskende klassifisering.</text>
+  </g>
+  <text x="600" y="443" text-anchor="middle" class="arrow">↓</text>
+  <g filter="url(#shadow)">
+    <rect x="110" y="447" width="980" height="118" rx="22" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/>
+    <circle cx="155" cy="506" r="35" fill="url(#badge)"/>
+    <text x="155" y="516" text-anchor="middle" class="num">2</text>
+    <text x="235" y="490" class="box-title">Lokal pipeline</text>
+    <text x="235" y="525" class="box-text">Rensing, klargjøring, EDA og intervallvalidering.</text>
+  </g>
+  <text x="600" y="595" text-anchor="middle" class="arrow">↓</text>
+  <g filter="url(#shadow)">
+    <rect x="110" y="599" width="980" height="118" rx="22" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/>
+    <circle cx="155" cy="658" r="35" fill="url(#badge)"/>
+    <text x="155" y="668" text-anchor="middle" class="num">3</text>
+    <text x="235" y="642" class="box-title">Veiledede modeller</text>
+    <text x="235" y="677" class="box-text">CART, Random Forest og komparativ evaluering.</text>
+  </g>
+  <text x="600" y="747" text-anchor="middle" class="arrow">↓</text>
+  <g filter="url(#shadow)">
+    <rect x="110" y="751" width="980" height="118" rx="22" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/>
+    <circle cx="155" cy="810" r="35" fill="url(#badge)"/>
+    <text x="155" y="820" text-anchor="middle" class="num">4</text>
+    <text x="235" y="794" class="box-title">Genetisk algoritme</text>
+    <text x="235" y="829" class="box-text">Evolusjonært utvalg fra 30 variabler til 4 finale variabler.</text>
+  </g>
+  <text x="600" y="899" text-anchor="middle" class="arrow">↓</text>
+  <g filter="url(#shadow)">
+    <rect x="110" y="903" width="980" height="118" rx="22" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/>
+    <circle cx="155" cy="962" r="35" fill="url(#badge)"/>
+    <text x="155" y="972" text-anchor="middle" class="num">5</text>
+    <text x="235" y="946" class="box-title">R Shiny</text>
+    <text x="235" y="981" class="box-text">Variabelregistrering, validering, prediksjon og HTML-rapport.</text>
+  </g>
+  <text x="600" y="1051" text-anchor="middle" class="arrow">↓</text>
+  <g filter="url(#shadow)">
+    <rect x="110" y="1055" width="980" height="118" rx="22" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/>
+    <circle cx="155" cy="1114" r="35" fill="url(#badge)"/>
+    <text x="155" y="1124" text-anchor="middle" class="num">6</text>
+    <text x="235" y="1098" class="box-title">Google Sheets</text>
+    <text x="235" y="1133" class="box-text">Sporbarhet med anonym ID, sannsynligheter og modellversjon.</text>
+  </g>
+  <text x="600" y="1175" text-anchor="middle" class="subtitle">Flerspråklig arkitektur validert for Sképsis Apps-porteføljen</text>
+</svg>
